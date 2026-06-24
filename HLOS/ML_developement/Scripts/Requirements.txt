@@ -1,0 +1,12 @@
+# CTGAN (recommended for your SSI data with many categoricals)
+python generate_synthetic.py --input ml_data_imputed.csv --synthesizer ctgan --epochs 500 --rows 10000 --drop_text_high_card
+
+# TVAE (more stable, good for smaller data)
+python generate_synthetic.py --input ml_data_imputed.csv --synthesizer tvae --epochs 400 --rows 10000
+
+pip install -U \
+    pandas \
+    numpy \
+    sdv \
+    sdmetrics \
+    tqdm   # optional but useful for progress bars
