@@ -2,10 +2,11 @@
 *.joblib
 *.pkl
 /home/kyomukama/ACE/Patient outcomes/HLOS/Documentation/*
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/ml_data.csv
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
-/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/mice_results
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/mice_results/*
 /home/kyomukama/ACE/Patient outcomes/Mortality model/Camonet_data.csv
 /home/kyomukama/ACE/Patient outcomes/Mortality model/Daring_data.csv
 /home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
