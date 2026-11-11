@@ -1,4 +1,4 @@
-site,age,sex,ward,anyComorbidity,anyResistance,antib_prior_admi,treatOutcome
+Name of the Referral hospital,Age,Sex,Ward,Any comorbidity,Any resistance,Prior antibiotic use,Mortality
 0,3.610917913,1,0,0,0,1,0
 0,4.060443011,1,3,0,1,0,0
 0,2.197224577,1,0,0,1,0,0

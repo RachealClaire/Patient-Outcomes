@@ -1,0 +1,2512 @@
+site,age,sex,ward,anyComorbidity,anyResistance,antib_prior_admi,treatOutcome
+Arua,36.0,Female,Gynecology,no,no,Yes,Not Died
+Arua,57.0,Female,Orthopedic,no,yes,No,Not Died
+Arua,8.0,Female,Gynecology,no,yes,No,Not Died
+Arua,1.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,21.0,Female,Gynecology,no,yes,No,Not Died
+Arua,0.0,Male,Pediatric,no,yes,No,Not Died
+Arua,24.0,Female,Medical,no,no,No,Not Died
+Arua,9.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,1.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,54.0,Female,Surgical,no,yes,No,Not Died
+Arua,80.0,Female,Surgical,yes,yes,No,Not Died
+Arua,42.0,Male,Surgical,no,yes,No,Not Died
+Arua,33.0,Female,Maternity,no,yes,No,Not Died
+Arua,4.0,Female,Surgical,no,yes,No,Not Died
+Arua,54.0,Male,Surgical,no,yes,No,Not Died
+Arua,1.0,Male,Pediatric,no,no,No,Died
+Arua,26.0,Female,Gynecology,no,yes,No,Not Died
+Arua,20.0,Male,Surgical,no,yes,No,Not Died
+Arua,25.0,Male,Surgical,no,yes,No,Not Died
+Arua,33.0,Male,Surgical,no,no,No,Not Died
+Arua,18.0,Female,Maternity,no,no,No,Not Died
+Arua,40.0,Female,Gynecology,no,yes,No,Not Died
+Arua,32.0,Female,Maternity,no,yes,No,Not Died
+Arua,25.0,Female,Maternity,no,yes,No,Not Died
+Arua,40.0,Male,Medical,yes,yes,No,Not Died
+Arua,25.0,Male,Surgical,no,yes,No,Not Died
+Arua,5.0,Female,Surgical,no,yes,No,Not Died
+Arua,50.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,42.0,Male,Orthopedic,no,no,No,Not Died
+Arua,18.0,Female,Gynecology,no,yes,No,Not Died
+Arua,58.0,Male,Medical,no,no,No,Not Died
+Arua,0.0,Male,Pediatric,yes,no,No,Not Died
+Arua,23.0,Female,Orthopedic,no,no,No,Not Died
+Arua,53.0,Female,Surgical,no,no,No,Not Died
+Arua,19.0,Female,Maternity,no,no,Yes,Not Died
+Arua,3.0,Female,ICU/HDU,no,no,No,Not Died
+Arua,20.0,Female,Gynecology,yes,no,No,Not Died
+Arua,12.0,Female,Orthopedic,no,no,No,Not Died
+Arua,34.0,Female,Surgical,no,yes,No,Not Died
+Arua,16.0,Female,Gynecology,no,no,No,Not Died
+Arua,17.0,Female,Maternity,no,no,Yes,Not Died
+Arua,34.0,Male,Medical,no,no,No,Not Died
+Arua,28.0,Female,Maternity,no,no,No,Not Died
+Arua,34.0,Female,Surgical,yes,no,No,Not Died
+Arua,24.0,Male,Surgical,no,yes,Yes,Not Died
+Arua,24.0,Female,Maternity,no,no,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,Yes,Not Died
+Arua,1.0,Male,Pediatric,no,no,No,Not Died
+Arua,61.0,Female,Orthopedic,no,yes,No,Not Died
+Arua,27.0,Female,Gynecology,no,yes,No,Not Died
+Arua,47.0,Male,Surgical,no,yes,No,Not Died
+Arua,31.0,Female,Gynecology,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,No,Not Died
+Arua,36.0,Male,Surgical,no,yes,No,Not Died
+Arua,36.0,Male,Surgical,no,yes,No,Not Died
+Arua,63.0,Female,Maternity,yes,yes,No,Died
+Arua,23.0,Male,Medical,no,yes,No,Not Died
+Arua,15.0,Female,Gynecology,no,yes,No,Not Died
+Arua,1.0,Male,Pediatric,no,yes,No,Not Died
+Arua,2.0,Female,Pediatric,yes,no,No,Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,26.0,Female,Gynecology,no,no,No,Not Died
+Arua,27.0,Female,Gynecology,no,no,No,Not Died
+Arua,16.0,Female,Gynecology,no,no,No,Not Died
+Arua,32.0,Female,Maternity,no,yes,No,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Not Died
+Arua,4.0,Female,Pediatric,no,no,No,Not Died
+Arua,24.0,Female,Medical,no,no,No,Not Died
+Arua,9.0,Male,Pediatric,no,no,No,Not Died
+Arua,8.0,Male,Pediatric,no,no,No,Not Died
+Arua,32.0,Male,Medical,no,no,No,Not Died
+Arua,16.0,Male,Medical,no,no,No,Not Died
+Arua,11.0,Female,Pediatric,no,no,No,Not Died
+Arua,14.0,Female,Medical,no,no,No,Not Died
+Arua,33.0,Male,Orthopedic,yes,no,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,No,Not Died
+Arua,20.0,Female,Maternity,no,yes,Yes,Not Died
+Arua,30.0,Female,Gynecology,no,yes,No,Not Died
+Arua,0.0,Female,NICU,no,yes,No,Not Died
+Arua,18.0,Female,Medical,no,no,No,Not Died
+Arua,27.0,Female,Gynecology,no,yes,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,No,Not Died
+Arua,3.0,Female,Pediatric,yes,no,No,Not Died
+Arua,71.0,Female,Medical,yes,yes,No,Not Died
+Arua,12.0,Male,Pediatric,no,yes,No,Not Died
+Arua,19.0,Female,Maternity,no,yes,No,Not Died
+Arua,5.0,Male,Pediatric,yes,yes,Yes,Died
+Arua,36.0,Male,Surgical,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,yes,No,Not Died
+Arua,22.0,Female,Surgical,no,yes,No,Not Died
+Arua,28.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,22.0,Female,Gynecology,no,yes,No,Not Died
+Arua,48.0,Male,Orthopedic,no,no,No,Not Died
+Arua,78.0,Female,Surgical,yes,yes,No,Not Died
+Arua,62.0,Female,Surgical,no,yes,No,Not Died
+Arua,13.0,Male,Medical,no,yes,No,Not Died
+Arua,42.0,Male,Medical,no,no,No,Not Died
+Arua,37.0,Male,Surgical,no,yes,No,Not Died
+Arua,36.0,Male,Medical,no,yes,No,Not Died
+Arua,38.0,Male,Medical,no,yes,Yes,Not Died
+Arua,68.0,Female,Surgical,no,yes,No,Not Died
+Arua,26.0,Male,Medical,no,yes,No,Not Died
+Arua,4.0,Female,Pediatric,no,yes,No,Not Died
+Arua,12.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,18.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,23.0,Female,Orthopedic,no,no,No,Not Died
+Arua,17.0,Female,Gynecology,no,no,No,Not Died
+Arua,47.0,Female,Orthopedic,no,no,No,Not Died
+Arua,85.0,Female,Medical,yes,yes,No,Not Died
+Arua,1.0,Female,Pediatric,no,no,No,Not Died
+Arua,51.0,Female,Medical,yes,yes,No,Not Died
+Arua,55.0,Male,Surgical,no,yes,Yes,Not Died
+Arua,42.0,Male,Medical,no,yes,No,Not Died
+Arua,4.0,Female,Surgical,no,yes,No,Not Died
+Arua,65.0,Female,Surgical,no,yes,No,Not Died
+Arua,38.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,23.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Died
+Arua,5.0,Male,Pediatric,no,no,No,Not Died
+Arua,24.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,83.0,Male,Medical,yes,yes,No,Not Died
+Arua,3.0,Male,Pediatric,no,yes,No,Not Died
+Arua,32.0,Female,Maternity,no,yes,No,Not Died
+Arua,68.0,Female,Medical,yes,no,No,Not Died
+Arua,37.0,Female,Gynecology,no,yes,No,Not Died
+Arua,26.0,Female,Maternity,no,no,No,Not Died
+Arua,17.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,19.0,Female,Gynecology,no,yes,No,Not Died
+Arua,21.0,Female,Gynecology,no,yes,No,Not Died
+Arua,26.0,Female,Surgical,no,yes,No,Not Died
+Arua,7.0,Female,Pediatric,yes,yes,No,Not Died
+Arua,7.0,Female,Pediatric,no,yes,No,Not Died
+Arua,20.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,25.0,Female,Gynecology,no,yes,No,Not Died
+Arua,27.0,Female,Medical,no,yes,No,Not Died
+Arua,13.0,Male,Surgical,no,yes,No,Not Died
+Arua,17.0,Female,Gynecology,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,yes,No,Not Died
+Arua,19.0,Male,Surgical,no,yes,No,Not Died
+Arua,28.0,Female,Gynecology,no,yes,Yes,Not Died
+Kabale,14.0,Male,Surgical,no,yes,No,Not Died
+Arua,66.0,Male,Medical,yes,yes,No,Not Died
+Arua,23.0,Female,ICU/HDU,no,yes,No,Not Died
+Arua,47.0,Female,Medical,yes,yes,No,Not Died
+Arua,35.0,Female,Surgical,no,yes,No,Not Died
+Arua,28.0,Female,Medical,yes,yes,No,Not Died
+Arua,40.0,Female,Surgical,yes,yes,No,Not Died
+Arua,30.0,Female,ICU/HDU,no,yes,No,Not Died
+Arua,47.0,Male,Medical,yes,yes,Yes,Died
+Arua,48.0,Male,Surgical,yes,yes,No,Not Died
+Arua,57.0,Male,Surgical,yes,yes,No,Not Died
+Arua,65.0,Female,Surgical,no,yes,No,Not Died
+Arua,1.0,Male,Pediatric,no,yes,No,Not Died
+Arua,26.0,Male,Orthopedic,no,no,No,Not Died
+Arua,5.0,Female,Pediatric,no,yes,No,Died
+Arua,29.0,Female,Gynecology,no,yes,No,Not Died
+Arua,20.0,Female,Gynecology,no,yes,No,Not Died
+Arua,20.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,3.0,Male,Surgical,no,no,No,Not Died
+Arua,8.0,Female,Pediatric,no,no,No,Not Died
+Arua,9.0,Female,Pediatric,yes,no,No,Not Died
+Arua,13.0,Male,Pediatric,no,no,No,Not Died
+Arua,32.0,Female,Gynecology,no,no,No,Not Died
+Arua,59.0,Female,Gynecology,no,yes,No,Not Died
+Arua,9.0,Male,ICU/HDU,yes,no,Yes,Not Died
+Arua,11.0,Female,Pediatric,no,yes,Yes,Not Died
+Arua,16.0,Female,Gynecology,no,yes,No,Not Died
+Arua,24.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,13.0,Male,Surgical,no,yes,No,Not Died
+Arua,57.0,Male,Medical,yes,yes,No,Not Died
+Arua,57.0,Male,Medical,yes,yes,No,Not Died
+Arua,26.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,25.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,20.0,Female,Orthopedic,yes,yes,No,Not Died
+Arua,18.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,39.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,20.0,Female,Gynecology,no,yes,No,Not Died
+Arua,20.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,16.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,15.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,15.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,20.0,Female,Medical,no,yes,Yes,Not Died
+Arua,20.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,17.0,Female,Gynecology,no,no,Yes,Not Died
+Arua,20.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,9.0,Female,Pediatric,no,yes,No,Not Died
+Arua,60.0,Female,Surgical,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,yes,No,Not Died
+Arua,44.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,yes,Yes,Not Died
+Arua,14.0,Female,Orthopedic,no,yes,Yes,Not Died
+Arua,33.0,Female,Gynecology,no,no,No,Not Died
+Arua,1.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,28.0,Female,Medical,yes,no,No,Not Died
+Arua,81.0,Male,Medical,yes,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Not Died
+Arua,44.0,Female,Medical,yes,yes,No,Not Died
+Arua,14.0,Female,Orthopedic,no,yes,No,Not Died
+Arua,39.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,26.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,44.0,Male,Orthopedic,yes,yes,No,Died
+Arua,65.0,Male,Orthopedic,no,yes,No,Not Died
+Arua,25.0,Male,Medical,yes,yes,Yes,Not Died
+Arua,19.0,Female,Gynecology,no,yes,No,Not Died
+Arua,40.0,Female,Gynecology,no,yes,No,Not Died
+Arua,60.0,Female,Surgical,no,yes,No,Not Died
+Arua,40.0,Male,Medical,no,yes,Yes,Not Died
+Arua,9.0,Female,Pediatric,no,yes,Yes,Not Died
+Arua,80.0,Female,Medical,no,yes,No,Died
+Arua,20.0,Female,Gynecology,no,yes,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,No,Not Died
+Arua,12.0,Female,Orthopedic,no,no,No,Not Died
+Arua,35.0,Female,Gynecology,no,no,No,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Not Died
+Arua,40.0,Male,Medical,no,no,No,Not Died
+Arua,0.0,Male,Pediatric,no,yes,No,Not Died
+Arua,35.0,Female,Gynecology,yes,yes,No,Not Died
+Arua,8.0,Female,Pediatric,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,No,Not Died
+Arua,20.0,Female,Gynecology,no,yes,No,Not Died
+Arua,26.0,Female,Surgical,no,yes,No,Not Died
+Arua,0.0,Female,Pediatric,no,yes,No,Not Died
+Arua,0.0,Male,Pediatric,no,yes,No,Not Died
+Arua,8.0,Male,Pediatric,no,yes,Yes,Not Died
+Arua,3.0,Male,Pediatric,no,yes,No,Not Died
+Arua,22.0,Female,Gynecology,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,Yes,Not Died
+Arua,1.0,Female,Pediatric,no,no,Yes,Not Died
+Arua,2.0,Female,Pediatric,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Died
+Arua,10.0,Female,Pediatric,yes,no,No,Not Died
+Arua,1.0,Female,Pediatric,no,no,No,Died
+Arua,4.0,Female,Pediatric,no,no,No,Not Died
+Arua,22.0,Female,Gynecology,no,no,No,Not Died
+Arua,25.0,Female,Gynecology,no,no,No,Not Died
+Arua,37.0,Female,Gynecology,no,no,No,Not Died
+Arua,1.0,Female,Surgical,no,no,No,Not Died
+Arua,40.0,Female,Medical,yes,no,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,No,Not Died
+Arua,23.0,Female,Medical,no,no,No,Not Died
+Arua,17.0,Female,Gynecology,no,no,No,Not Died
+Arua,9.0,Female,Pediatric,yes,no,No,Not Died
+Arua,2.0,Female,Pediatric,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,Yes,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Not Died
+Arua,5.0,Female,Pediatric,no,no,No,Not Died
+Arua,3.0,Male,Pediatric,no,no,No,Not Died
+Arua,26.0,Female,Maternity,no,no,No,Died
+Arua,8.0,Male,Pediatric,yes,no,No,Not Died
+Arua,60.0,Female,Medical,yes,no,No,Not Died
+Arua,23.0,Female,Gynecology,no,no,No,Not Died
+Arua,60.0,Female,Surgical,yes,no,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,4.0,Female,Pediatric,no,no,Yes,Not Died
+Arua,0.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,No,Not Died
+Arua,45.0,Male,Orthopedic,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Arua,52.0,Female,Gynecology,no,no,No,Died
+Arua,8.0,Male,Pediatric,yes,no,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,No,Not Died
+Arua,63.0,Female,Surgical,yes,no,No,Not Died
+Arua,10.0,Female,Pediatric,yes,no,Yes,Not Died
+Arua,4.0,Male,Pediatric,yes,no,No,Not Died
+Arua,10.0,Female,Pediatric,yes,no,Yes,Not Died
+Arua,3.0,Female,Pediatric,no,no,No,Not Died
+Arua,16.0,Male,Pediatric,no,no,No,Not Died
+Arua,1.0,Female,Pediatric,no,no,No,Not Died
+Arua,17.0,Male,Medical,no,no,No,Not Died
+Arua,14.0,Female,Medical,yes,no,No,Not Died
+Arua,16.0,Female,Medical,yes,no,No,Not Died
+Arua,0.0,Male,Pediatric,no,no,No,Not Died
+Arua,1.0,Male,Pediatric,yes,no,No,Not Died
+Arua,33.0,Female,Gynecology,no,no,Yes,Not Died
+Arua,62.0,Female,Surgical,no,yes,No,Not Died
+Arua,4.0,Male,Pediatric,no,no,No,Not Died
+Arua,78.0,Male,Surgical,no,yes,No,Not Died
+Arua,55.0,Male,Medical,yes,no,No,Not Died
+Gulu,60.0,Female,Medical,no,yes,No,Not Died
+Gulu,1.0,Female,Pediatric,no,yes,No,Not Died
+Gulu,14.0,Male,Medical,no,yes,No,Not Died
+Gulu,28.0,Female,Medical,yes,yes,No,Died
+Gulu,36.0,Male,Medical,yes,yes,No,Died
+Gulu,83.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,14.0,Male,Medical,no,yes,Yes,Not Died
+Gulu,62.0,Male,Surgical,no,yes,No,Not Died
+Gulu,34.0,Male,Surgical,no,yes,No,Not Died
+Gulu,18.0,Female,Surgical,no,yes,No,Not Died
+Gulu,23.0,Female,Gynecology,no,no,No,Not Died
+Gulu,5.0,Male,Medical,no,no,No,Not Died
+Gulu,7.0,Female,Pediatric,yes,no,No,Not Died
+Gulu,40.0,Male,Surgical,no,no,No,Not Died
+Gulu,32.0,Male,Medical,yes,yes,No,Not Died
+Gulu,74.0,Female,Surgical,no,no,No,Not Died
+Gulu,79.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,27.0,Male,Medical,yes,no,No,Not Died
+Gulu,31.0,Female,Gynecology,no,no,No,Not Died
+Gulu,26.0,Female,Maternity,no,no,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,6.0,Male,Surgical,no,yes,No,Not Died
+Gulu,2.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,27.0,Male,Medical,no,yes,No,Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,4.0,Female,Surgical,no,yes,No,Not Died
+Gulu,23.0,Female,Surgical,no,yes,Yes,Not Died
+Gulu,23.0,Female,Surgical,no,yes,Yes,Not Died
+Gulu,0.0,Female,Pediatric,no,no,No,Not Died
+Gulu,23.0,Female,Medical,yes,no,Yes,Died
+Gulu,40.0,Male,Surgical,no,no,Yes,Not Died
+Gulu,1.0,Male,Pediatric,no,no,No,Not Died
+Gulu,1.0,Female,Medical,no,yes,Yes,Not Died
+Gulu,38.0,Female,ICU/HDU,no,yes,No,Not Died
+Gulu,18.0,Male,Surgical,no,yes,Yes,Not Died
+Gulu,20.0,Male,Surgical,no,yes,No,Not Died
+Gulu,38.0,Female,Gynecology,yes,yes,No,Not Died
+Gulu,24.0,Male,Surgical,no,yes,No,Not Died
+Gulu,43.0,Male,ICU/HDU,yes,yes,No,Died
+Gulu,24.0,Male,Orthopedic,yes,yes,No,Not Died
+Gulu,2.0,Male,Pediatric,yes,yes,No,Not Died
+Gulu,29.0,Male,Medical,no,no,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Gulu,21.0,Female,ICU/HDU,yes,no,No,Died
+Gulu,70.0,Female,Surgical,no,yes,No,Not Died
+Gulu,16.0,Female,Medical,yes,no,No,Not Died
+Gulu,48.0,Male,Surgical,no,yes,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Gulu,70.0,Female,Medical,no,yes,No,Not Died
+Gulu,7.0,Female,Pediatric,yes,no,No,Not Died
+Gulu,7.0,Female,Pediatric,yes,no,No,Not Died
+Gulu,39.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,78.0,Female,Medical,no,yes,Yes,Not Died
+Gulu,63.0,Male,Medical,yes,no,No,Not Died
+Gulu,72.0,Female,Medical,yes,no,No,Not Died
+Gulu,60.0,Male,Medical,no,yes,Yes,Not Died
+Gulu,62.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,25.0,Female,Surgical,no,yes,Yes,Not Died
+Gulu,0.0,Male,NICU,no,yes,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,41.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,15.0,Female,Orthopedic,no,yes,No,Not Died
+Gulu,28.0,Male,Surgical,no,no,Yes,Died
+Gulu,18.0,Female,Surgical,no,no,No,Not Died
+Gulu,38.0,Female,Gynecology,yes,no,No,Not Died
+Gulu,29.0,Male,Surgical,no,no,No,Not Died
+Gulu,0.0,Male,Medical,no,no,No,Died
+Gulu,70.0,Female,Surgical,no,yes,No,Not Died
+Gulu,37.0,Male,Surgical,no,yes,Yes,Not Died
+Gulu,19.0,Female,Maternity,no,yes,No,Not Died
+Gulu,19.0,Female,Maternity,no,yes,No,Not Died
+Gulu,18.0,Female,Maternity,no,yes,No,Not Died
+Gulu,3.0,Female,Pediatric,no,no,No,Not Died
+Gulu,3.0,Female,Pediatric,no,no,No,Not Died
+Gulu,28.0,Female,Surgical,no,yes,No,Not Died
+Gulu,2.0,Male,Pediatric,yes,yes,No,Not Died
+Gulu,19.0,Male,Surgical,no,yes,No,Not Died
+Gulu,2.0,Male,Pediatric,yes,yes,No,Not Died
+Gulu,0.0,Male,NICU,no,yes,No,Not Died
+Gulu,34.0,Female,ICU/HDU,no,yes,No,Died
+Gulu,75.0,Male,Surgical,no,yes,No,Not Died
+Gulu,34.0,Female,ICU/HDU,no,yes,No,Died
+Gulu,71.0,Male,Surgical,no,yes,No,Not Died
+Gulu,2.0,Male,Surgical,no,yes,No,Not Died
+Gulu,12.0,Female,Pediatric,no,no,No,Not Died
+Gulu,26.0,Female,Surgical,no,yes,No,Not Died
+Gulu,51.0,Female,Gynecology,no,yes,No,Not Died
+Gulu,66.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,22.0,Male,Medical,no,no,No,Not Died
+Gulu,0.0,Male,NICU,no,yes,No,Not Died
+Gulu,0.0,Male,NICU,no,yes,No,Died
+Gulu,0.0,Female,Pediatric,no,yes,No,Not Died
+Gulu,28.0,Female,Medical,no,yes,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,0.0,Male,Medical,no,yes,No,Not Died
+Gulu,0.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,27.0,Female,Medical,yes,yes,No,Not Died
+Gulu,22.0,Male,Surgical,no,yes,No,Not Died
+Gulu,23.0,Female,Gynecology,no,yes,No,Not Died
+Gulu,37.0,Male,Medical,yes,no,No,Not Died
+Gulu,24.0,Male,Medical,no,no,No,Not Died
+Gulu,18.0,Female,Gynecology,no,no,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Gulu,20.0,Male,Surgical,no,no,No,Not Died
+Gulu,20.0,Female,Maternity,no,no,No,Not Died
+Gulu,0.0,Male,NICU,no,no,No,Not Died
+Gulu,24.0,Male,Medical,yes,no,No,Not Died
+Gulu,0.0,Male,Medical,yes,no,No,Not Died
+Gulu,25.0,Male,Medical,no,no,No,Not Died
+Gulu,15.0,Male,Medical,no,no,No,Not Died
+Gulu,43.0,Male,Medical,no,no,No,Not Died
+Gulu,12.0,Male,Pediatric,no,no,No,Not Died
+Gulu,50.0,Male,Orthopedic,no,no,No,Not Died
+Gulu,52.0,Male,Surgical,no,no,No,Not Died
+Gulu,15.0,Male,Medical,no,no,No,Not Died
+Gulu,25.0,Female,Gynecology,no,no,No,Not Died
+Gulu,29.0,Female,Surgical,no,yes,No,Not Died
+Gulu,19.0,Male,Surgical,no,yes,No,Not Died
+Gulu,0.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,19.0,Male,Surgical,no,yes,No,Not Died
+Gulu,76.0,Male,Surgical,no,yes,No,Not Died
+Gulu,26.0,Female,Medical,no,no,No,Not Died
+Gulu,42.0,Female,Medical,yes,no,No,Not Died
+Gulu,12.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,33.0,Female,Surgical,no,no,No,Not Died
+Gulu,0.0,Male,Pediatric,yes,yes,No,Not Died
+Gulu,40.0,Female,Orthopedic,no,yes,Yes,Not Died
+Gulu,48.0,Male,ICU/HDU,yes,yes,No,Died
+Gulu,26.0,Male,ICU/HDU,no,yes,No,Died
+Gulu,37.0,Female,Medical,no,no,No,Not Died
+Gulu,26.0,Male,ICU/HDU,no,no,No,Died
+Gulu,45.0,Male,Surgical,yes,yes,Yes,Not Died
+Gulu,1.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,1.0,Male,Pediatric,yes,no,No,Not Died
+Gulu,45.0,Male,Surgical,no,yes,No,Not Died
+Gulu,75.0,Female,Medical,yes,no,No,Not Died
+Gulu,75.0,Female,Medical,no,no,No,Not Died
+Gulu,25.0,Female,ICU/HDU,no,no,No,Not Died
+Gulu,35.0,Female,ICU/HDU,no,yes,No,Not Died
+Gulu,72.0,Female,Surgical,no,yes,No,Not Died
+Gulu,15.0,Female,Medical,yes,no,Yes,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,21.0,Female,Medical,no,yes,Yes,Not Died
+Gulu,1.0,Female,Pediatric,no,yes,No,Not Died
+Gulu,0.0,Female,Surgical,no,no,No,Not Died
+Gulu,0.0,Male,NICU,no,yes,No,Not Died
+Gulu,19.0,Male,Surgical,no,no,No,Not Died
+Gulu,79.0,Male,Medical,no,yes,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,78.0,Female,Surgical,no,yes,No,Not Died
+Gulu,21.0,Female,Medical,yes,no,Yes,Not Died
+Gulu,49.0,Female,Medical,no,no,No,Not Died
+Gulu,17.0,Male,Maternity,no,yes,No,Not Died
+Gulu,31.0,Male,Surgical,no,yes,No,Not Died
+Gulu,72.0,Female,Medical,yes,no,No,Died
+Gulu,12.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,2.0,Male,Pediatric,yes,no,No,Not Died
+Gulu,2.0,Female,Pediatric,yes,no,No,Not Died
+Gulu,21.0,Male,Surgical,no,yes,No,Not Died
+Gulu,0.0,Female,NICU,no,yes,No,Not Died
+Gulu,35.0,Male,Surgical,no,yes,No,Not Died
+Jinja,0.0,Male,NICU,no,no,Yes,Not Died
+Jinja,66.0,Male,ICU/HDU,yes,yes,Yes,Not Died
+Jinja,40.0,Male,Gynecology,no,no,Yes,Not Died
+Jinja,27.0,Female,Medical,yes,yes,No,Not Died
+Jinja,16.0,Male,Medical,no,yes,No,Not Died
+Jinja,32.0,Female,Medical,yes,no,No,Not Died
+Jinja,25.0,Female,Medical,no,no,No,Not Died
+Jinja,59.0,Female,Medical,yes,no,No,Not Died
+Jinja,72.0,Female,Medical,no,no,No,Not Died
+Jinja,50.0,Female,Medical,yes,no,No,Not Died
+Jinja,65.0,Female,Medical,yes,no,No,Not Died
+Jinja,52.0,Female,Medical,no,yes,No,Not Died
+Jinja,0.0,Male,ICU/HDU,no,no,No,Died
+Jinja,0.0,Female,Orthopedic,no,yes,No,Not Died
+Jinja,0.0,Female,Pediatric,no,no,No,Not Died
+Jinja,76.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,44.0,Male,Orthopedic,yes,no,No,Not Died
+Jinja,25.0,Male,Orthopedic,yes,no,No,Not Died
+Jinja,66.0,Male,Surgical,no,no,No,Not Died
+Jinja,60.0,Male,Medical,no,no,No,Not Died
+Jinja,24.0,Female,Orthopedic,no,no,No,Not Died
+Jinja,25.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,49.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,21.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,30.0,Female,Orthopedic,yes,no,No,Not Died
+Jinja,52.0,Female,Orthopedic,no,no,No,Not Died
+Jinja,23.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,35.0,Female,Surgical,no,no,No,Died
+Jinja,63.0,Male,Medical,yes,no,No,Died
+Jinja,45.0,Male,Medical,yes,no,No,Not Died
+Jinja,81.0,Male,Medical,yes,no,No,Died
+Jinja,38.0,Male,Medical,no,no,No,Not Died
+Jinja,60.0,Male,Medical,yes,no,No,Not Died
+Jinja,62.0,Male,Medical,no,no,No,Not Died
+Jinja,33.0,Male,Medical,yes,no,No,Died
+Jinja,45.0,Male,Medical,yes,no,No,Not Died
+Jinja,37.0,Male,Medical,yes,no,No,Not Died
+Jinja,30.0,Male,Medical,yes,no,No,Not Died
+Jinja,39.0,Male,Medical,no,no,No,Not Died
+Jinja,38.0,Male,Medical,no,no,No,Not Died
+Jinja,75.0,Female,Surgical,no,no,No,Died
+Jinja,50.0,Male,Surgical,yes,no,No,Not Died
+Jinja,8.0,Male,Surgical,no,no,No,Not Died
+Jinja,50.0,Female,Surgical,no,no,No,Not Died
+Jinja,81.0,Female,Surgical,yes,no,No,Died
+Jinja,63.0,Male,Surgical,yes,no,No,Not Died
+Jinja,48.0,Male,Surgical,yes,no,No,Not Died
+Jinja,42.0,Male,Surgical,no,no,No,Not Died
+Jinja,38.0,Male,Medical,yes,no,No,Not Died
+Jinja,46.0,Male,Medical,yes,no,No,Not Died
+Jinja,52.0,Female,ICU/HDU,yes,no,No,Died
+Jinja,0.0,Female,ICU/HDU,no,no,No,Not Died
+Jinja,36.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,8.0,Female,Orthopedic,no,no,No,Not Died
+Jinja,59.0,Female,Orthopedic,yes,no,No,Not Died
+Jinja,48.0,Male,Medical,yes,no,No,Not Died
+Jinja,38.0,Male,Medical,no,no,No,Not Died
+Jinja,48.0,Male,Medical,yes,no,No,Not Died
+Jinja,70.0,Male,Medical,no,no,No,Not Died
+Jinja,36.0,Male,Medical,no,no,No,Not Died
+Jinja,45.0,Male,Medical,no,no,No,Not Died
+Jinja,40.0,Male,Surgical,yes,no,No,Not Died
+Jinja,32.0,Male,Medical,yes,no,No,Not Died
+Jinja,41.0,Male,Medical,yes,no,No,Not Died
+Jinja,36.0,Male,Surgical,yes,no,No,Not Died
+Jinja,25.0,Male,Medical,yes,no,No,Not Died
+Jinja,39.0,Male,Medical,yes,no,No,Not Died
+Jinja,40.0,Female,Surgical,yes,no,No,Not Died
+Jinja,14.0,Male,Surgical,no,no,No,Not Died
+Jinja,80.0,Female,Gynecology,yes,no,No,Died
+Jinja,39.0,Female,Surgical,yes,yes,No,Died
+Jinja,52.0,Male,Medical,yes,yes,No,Not Died
+Jinja,0.0,Female,Pediatric,no,no,No,Not Died
+Jinja,0.0,Male,Pediatric,no,no,Yes,Not Died
+Jinja,48.0,Male,Surgical,yes,no,No,Not Died
+Jinja,75.0,Female,Medical,yes,no,No,Not Died
+Jinja,2.0,Male,Medical,no,no,No,Not Died
+Jinja,28.0,Male,Surgical,no,no,No,Not Died
+Jinja,29.0,Female,Gynecology,no,yes,No,Not Died
+Jinja,43.0,Female,Surgical,yes,yes,No,Not Died
+Jinja,60.0,Male,Medical,no,no,No,Not Died
+Jinja,57.0,Male,Medical,no,no,No,Not Died
+Jinja,40.0,Male,Orthopedic,yes,yes,No,Not Died
+Jinja,0.0,Male,NICU,no,no,Yes,Not Died
+Jinja,50.0,Female,Medical,yes,no,No,Died
+Jinja,75.0,Female,Medical,no,no,No,Not Died
+Jinja,18.0,Female,Medical,yes,no,No,Not Died
+Jinja,24.0,Male,Medical,yes,no,No,Not Died
+Jinja,20.0,Male,Medical,no,no,No,Not Died
+Jinja,25.0,Female,Gynecology,no,no,No,Not Died
+Jinja,44.0,Female,Surgical,yes,no,No,Died
+Jinja,23.0,Male,Surgical,no,no,No,Died
+Jinja,63.0,Female,Medical,yes,no,No,Not Died
+Jinja,26.0,Female,Gynecology,no,no,No,Not Died
+Jinja,27.0,Female,Gynecology,no,no,No,Not Died
+Jinja,48.0,Male,Medical,yes,no,No,Not Died
+Jinja,38.0,Male,Medical,yes,no,No,Not Died
+Jinja,60.0,Female,ICU/HDU,no,no,No,Not Died
+Jinja,52.0,Male,ICU/HDU,yes,no,No,Not Died
+Jinja,64.0,Male,ICU/HDU,yes,no,No,Died
+Jinja,45.0,Male,Medical,no,no,No,Not Died
+Jinja,75.0,Female,ICU/HDU,yes,no,Yes,Not Died
+Jinja,56.0,Male,ICU/HDU,no,no,No,Died
+Jinja,3.0,Female,Pediatric,yes,yes,No,Not Died
+Jinja,84.0,Female,ICU/HDU,yes,no,No,Died
+Jinja,50.0,Male,Medical,no,no,No,Not Died
+Jinja,0.0,Female,Pediatric,no,no,No,Not Died
+Jinja,14.0,Female,ICU/HDU,no,no,No,Not Died
+Jinja,37.0,Male,Orthopedic,no,yes,No,Not Died
+Jinja,48.0,Female,Orthopedic,no,yes,No,Not Died
+Jinja,26.0,Male,Medical,yes,no,No,Not Died
+Jinja,29.0,Male,Medical,no,yes,No,Not Died
+Jinja,28.0,Male,Medical,no,no,No,Not Died
+Jinja,23.0,Male,Surgical,no,no,No,Not Died
+Jinja,56.0,Female,ICU/HDU,no,no,No,Died
+Jinja,48.0,Male,Medical,no,no,No,Not Died
+Jinja,80.0,Female,Orthopedic,yes,yes,No,Not Died
+Jinja,42.0,Male,Orthopedic,no,yes,Yes,Not Died
+Jinja,16.0,Male,Orthopedic,no,no,Yes,Not Died
+Jinja,29.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,66.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,41.0,Male,Surgical,yes,no,No,Not Died
+Jinja,51.0,Male,Surgical,no,yes,No,Not Died
+Jinja,40.0,Male,Surgical,no,no,No,Not Died
+Jinja,40.0,Male,Surgical,yes,no,No,Not Died
+Jinja,33.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,48.0,Male,Orthopedic,no,yes,No,Not Died
+Jinja,45.0,Male,Medical,yes,no,No,Not Died
+Jinja,60.0,Female,Medical,no,yes,No,Not Died
+Jinja,11.0,Female,Pediatric,yes,yes,No,Not Died
+Jinja,3.0,Female,Pediatric,no,no,No,Not Died
+Jinja,54.0,Male,Medical,no,no,No,Not Died
+Jinja,49.0,Male,Medical,yes,no,No,Not Died
+Jinja,37.0,Female,Gynecology,no,yes,No,Not Died
+Jinja,25.0,Female,Medical,yes,no,No,Not Died
+Jinja,25.0,Female,Medical,yes,no,No,Not Died
+Jinja,57.0,Female,Medical,no,no,Yes,Not Died
+Jinja,75.0,Female,Medical,yes,no,No,Not Died
+Jinja,60.0,Male,ICU/HDU,yes,no,No,Not Died
+Jinja,70.0,Female,ICU/HDU,yes,no,No,Died
+Jinja,74.0,Female,ICU/HDU,yes,no,No,Died
+Jinja,62.0,Male,ICU/HDU,no,no,No,Died
+Jinja,0.0,Male,NICU,no,no,No,Not Died
+Jinja,28.0,Female,Orthopedic,no,no,No,Not Died
+Jinja,20.0,Male,Orthopedic,no,yes,No,Not Died
+Jinja,70.0,Female,Orthopedic,yes,yes,No,Not Died
+Jinja,35.0,Male,Orthopedic,no,yes,No,Not Died
+Jinja,19.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,44.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,18.0,Male,Orthopedic,no,no,No,Not Died
+Jinja,56.0,Male,Surgical,no,no,No,Not Died
+Jinja,12.0,Female,Surgical,no,no,No,Not Died
+Jinja,40.0,Female,Medical,no,no,No,Not Died
+Jinja,20.0,Female,Surgical,no,no,No,Not Died
+Kabale,16.0,Male,Surgical,no,no,No,Not Died
+Kabale,2.0,Male,Surgical,no,yes,No,Not Died
+Kabale,37.0,Male,Surgical,no,no,No,Not Died
+Kabale,30.0,Female,Surgical,yes,yes,Yes,Not Died
+Kabale,0.0,Male,NICU,no,no,No,Not Died
+Kabale,28.0,Female,Medical,no,no,No,Not Died
+Kabale,1.0,Male,Pediatric,no,no,No,Not Died
+Kabale,2.0,Female,Pediatric,no,no,No,Not Died
+Kabale,25.0,Female,Gynecology,no,no,No,Not Died
+Kabale,16.0,Male,Surgical,no,yes,No,Not Died
+Kabale,56.0,Female,Surgical,no,yes,No,Not Died
+Kabale,45.0,Female,Gynecology,yes,yes,No,Not Died
+Kabale,9.0,Female,Surgical,no,yes,Yes,Not Died
+Kabale,45.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,52.0,Female,Medical,no,no,No,Not Died
+Kabale,92.0,Female,Medical,yes,yes,No,Not Died
+Kabale,6.0,Female,Surgical,no,yes,No,Not Died
+Kabale,17.0,Male,Surgical,no,yes,No,Not Died
+Kabale,33.0,Male,Surgical,no,yes,No,Not Died
+Kabale,25.0,Male,Surgical,no,yes,No,Not Died
+Kabale,65.0,Male,Surgical,no,yes,No,Not Died
+Kabale,67.0,Female,Surgical,no,yes,No,Not Died
+Kabale,8.0,Male,Surgical,no,yes,No,Not Died
+Kabale,12.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,35.0,Female,Surgical,no,yes,No,Not Died
+Kabale,26.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,14.0,Male,Surgical,no,yes,No,Not Died
+Kabale,8.0,Female,Surgical,no,yes,No,Not Died
+Kabale,49.0,Female,Medical,no,yes,No,Not Died
+Kabale,26.0,Female,Medical,no,no,No,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Died
+Kabale,39.0,Male,Medical,no,no,No,Not Died
+Kabale,48.0,Female,Medical,yes,yes,No,Not Died
+Kabale,83.0,Female,Medical,no,no,Yes,Died
+Kabale,45.0,Female,Orthopedic,no,yes,No,Not Died
+Kabale,35.0,Male,Surgical,no,yes,No,Not Died
+Kabale,35.0,Male,Medical,no,yes,No,Not Died
+Kabale,65.0,Female,Medical,no,no,No,Not Died
+Kabale,37.0,Male,Medical,yes,yes,No,Not Died
+Kabale,1.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,70.0,Female,Medical,no,no,No,Not Died
+Kabale,23.0,Female,Maternity,no,yes,No,Not Died
+Kabale,21.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,12.0,Male,Surgical,no,no,No,Not Died
+Kabale,23.0,Male,Surgical,no,no,No,Not Died
+Kabale,30.0,Male,Medical,no,no,No,Not Died
+Kabale,86.0,Female,Medical,yes,yes,No,Not Died
+Kabale,80.0,Male,Medical,no,no,No,Died
+Kabale,6.0,Male,Surgical,no,yes,No,Not Died
+Kabale,12.0,Female,Surgical,no,yes,No,Not Died
+Kabale,85.0,Female,Medical,yes,yes,No,Not Died
+Kabale,5.0,Male,Pediatric,no,no,No,Not Died
+Kabale,29.0,Male,Surgical,no,yes,No,Not Died
+Kabale,15.0,Female,Surgical,no,yes,No,Not Died
+Kabale,28.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,42.0,Female,Medical,yes,no,No,Not Died
+Kabale,22.0,Female,Medical,no,no,No,Not Died
+Kabale,10.0,Male,Surgical,no,yes,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Died
+Kabale,4.0,Male,Pediatric,no,no,No,Not Died
+Kabale,9.0,Male,Pediatric,no,no,No,Not Died
+Kabale,2.0,Female,Surgical,no,yes,No,Not Died
+Kabale,3.0,Female,Pediatric,no,no,No,Not Died
+Kabale,2.0,Male,Pediatric,no,no,Yes,Not Died
+Kabale,5.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,32.0,Male,Medical,no,no,No,Not Died
+Kabale,0.0,Male,Surgical,no,yes,No,Not Died
+Kabale,15.0,Female,Surgical,no,no,No,Not Died
+Kabale,56.0,Male,Medical,yes,no,No,Died
+Kabale,44.0,Male,Surgical,no,no,No,Not Died
+Kabale,17.0,Male,Surgical,no,no,No,Not Died
+Kabale,34.0,Female,Maternity,no,yes,No,Not Died
+Kabale,28.0,Female,Maternity,no,yes,No,Not Died
+Kabale,38.0,Female,Maternity,no,no,Yes,Not Died
+Kabale,22.0,Female,Maternity,no,yes,No,Not Died
+Kabale,38.0,Male,Surgical,yes,yes,Yes,Not Died
+Kabale,24.0,Male,Surgical,no,yes,Yes,Not Died
+Kabale,2.0,Male,Surgical,no,yes,No,Not Died
+Kabale,5.0,Male,Pediatric,yes,no,No,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Not Died
+Kabale,15.0,Male,Surgical,no,yes,No,Not Died
+Kabale,91.0,Male,Surgical,no,yes,No,Not Died
+Kabale,23.0,Female,Maternity,no,yes,No,Not Died
+Kabale,24.0,Female,Surgical,no,no,No,Not Died
+Kabale,28.0,Female,Maternity,no,no,No,Not Died
+Kabale,35.0,Female,Maternity,no,no,No,Not Died
+Kabale,75.0,Male,Medical,no,yes,No,Not Died
+Kabale,1.0,Female,Pediatric,no,no,No,Not Died
+Kabale,3.0,Female,Pediatric,no,no,Yes,Not Died
+Kabale,11.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,32.0,Male,Surgical,no,yes,No,Not Died
+Kabale,21.0,Male,Surgical,no,yes,No,Not Died
+Kabale,75.0,Female,Medical,no,yes,No,Not Died
+Kabale,30.0,Female,Medical,no,yes,Yes,Not Died
+Kabale,18.0,Male,Surgical,no,yes,Yes,Not Died
+Kabale,1.0,Female,Surgical,no,yes,No,Not Died
+Kabale,5.0,Female,Surgical,no,yes,No,Not Died
+Kabale,2.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,46.0,Female,Medical,yes,no,Yes,Not Died
+Kabale,0.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,2.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,4.0,Male,Pediatric,yes,no,No,Not Died
+Kabale,12.0,Male,Surgical,no,yes,No,Not Died
+Kabale,10.0,Male,Surgical,no,yes,Yes,Not Died
+Kabale,9.0,Male,Surgical,no,yes,No,Not Died
+Kabale,5.0,Male,Surgical,no,no,No,Not Died
+Kabale,23.0,Female,Maternity,no,no,No,Not Died
+Kabale,18.0,Female,Maternity,no,no,No,Not Died
+Kabale,44.0,Male,Medical,no,yes,No,Not Died
+Kabale,51.0,Male,Medical,no,no,No,Not Died
+Kabale,36.0,Male,Medical,no,yes,No,Not Died
+Kabale,47.0,Female,Medical,yes,no,No,Not Died
+Kabale,0.0,Female,NICU,no,yes,Yes,Not Died
+Kabale,25.0,Male,Surgical,no,yes,No,Not Died
+Kabale,60.0,Male,Medical,no,no,No,Not Died
+Kabale,2.0,Female,Pediatric,no,no,No,Not Died
+Kabale,1.0,Female,Pediatric,no,no,No,Not Died
+Kabale,2.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,3.0,Male,Pediatric,no,no,No,Not Died
+Kabale,11.0,Male,Pediatric,no,no,No,Not Died
+Kabale,67.0,Male,Medical,no,yes,No,Not Died
+Kabale,0.0,Male,NICU,no,yes,No,Not Died
+Kabale,29.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,26.0,Female,Gynecology,no,no,Yes,Not Died
+Kabale,52.0,Male,Surgical,no,yes,No,Not Died
+Kabale,79.0,Male,Medical,yes,yes,No,Not Died
+Kabale,4.0,Female,Pediatric,no,no,No,Not Died
+Kabale,12.0,Male,Pediatric,no,no,No,Not Died
+Kabale,50.0,Female,Medical,yes,yes,No,Not Died
+Kabale,21.0,Male,Surgical,no,yes,No,Not Died
+Kabale,67.0,Male,Surgical,no,yes,No,Not Died
+Kabale,0.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,28.0,Female,Medical,no,no,No,Not Died
+Kabale,9.0,Male,Pediatric,no,no,No,Not Died
+Kabale,42.0,Male,Surgical,no,yes,No,Not Died
+Kabale,23.0,Female,Maternity,no,yes,No,Not Died
+Kabale,21.0,Female,Maternity,no,no,No,Not Died
+Kabale,30.0,Female,Maternity,no,no,No,Not Died
+Kabale,26.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,36.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,25.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,90.0,Male,Surgical,no,yes,No,Not Died
+Kabale,76.0,Female,Medical,yes,yes,No,Not Died
+Kabale,50.0,Female,Medical,no,yes,No,Not Died
+Kabale,35.0,Female,Medical,no,yes,No,Not Died
+Kabale,19.0,Male,Medical,yes,yes,No,Not Died
+Kabale,28.0,Male,Medical,yes,yes,No,Not Died
+Kabale,14.0,Female,Surgical,no,yes,No,Not Died
+Kabale,18.0,Male,Surgical,no,yes,No,Not Died
+Kabale,28.0,Male,Surgical,no,yes,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,4.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Died
+Kabale,3.0,Female,Pediatric,no,no,No,Not Died
+Kabale,9.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,2.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Not Died
+Kabale,1.0,Female,Pediatric,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,65.0,Male,Surgical,no,no,No,Not Died
+Kabale,68.0,Female,Surgical,yes,yes,No,Not Died
+Kabale,50.0,Female,Medical,yes,yes,No,Not Died
+Kabale,40.0,Male,Medical,no,no,No,Not Died
+Kabale,20.0,Female,Gynecology,no,no,No,Not Died
+Kabale,9.0,Female,Surgical,no,yes,No,Not Died
+Kabale,10.0,Male,Surgical,no,no,No,Not Died
+Kabale,38.0,Male,Surgical,no,no,No,Not Died
+Kabale,13.0,Female,Orthopedic,no,no,No,Not Died
+Kabale,53.0,Male,Medical,yes,no,No,Not Died
+Kabale,63.0,Female,Medical,yes,yes,No,Not Died
+Kabale,16.0,Male,Medical,no,no,No,Not Died
+Kabale,48.0,Male,Medical,yes,no,No,Not Died
+Kabale,64.0,Female,Medical,yes,no,No,Not Died
+Kabale,82.0,Female,Medical,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,1.0,Male,Pediatric,no,no,No,Not Died
+Kabale,4.0,Male,Pediatric,no,no,No,Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,2.0,Male,Pediatric,no,no,No,Not Died
+Kabale,27.0,Male,Surgical,no,yes,No,Not Died
+Kabale,78.0,Male,Surgical,no,no,No,Not Died
+Kabale,28.0,Male,Surgical,no,no,No,Not Died
+Kabale,45.0,Male,Medical,no,no,No,Died
+Kabale,15.0,Female,Surgical,no,no,No,Not Died
+Kabale,2.0,Male,Surgical,no,yes,No,Not Died
+Kabale,1.0,Male,Surgical,no,no,No,Not Died
+Kabale,63.0,Male,Surgical,yes,no,No,Not Died
+Kabale,46.0,Female,Surgical,yes,yes,No,Not Died
+Kabale,52.0,Male,Surgical,yes,no,No,Not Died
+Kabale,45.0,Male,Surgical,no,yes,No,Not Died
+Kabale,20.0,Male,Surgical,no,no,No,Not Died
+Kabale,75.0,Female,Medical,no,no,No,Died
+Kabale,51.0,Male,Medical,no,no,No,Died
+Kabale,0.0,Female,Pediatric,no,no,No,Died
+Kabale,14.0,Female,Surgical,no,no,No,Not Died
+Kabale,11.0,Male,Pediatric,no,yes,Yes,Not Died
+Kabale,12.0,Male,Surgical,no,yes,No,Not Died
+Kabale,39.0,Male,Medical,yes,no,No,Not Died
+Kabale,40.0,Male,Medical,yes,no,No,Not Died
+Kabale,32.0,Male,Medical,no,no,No,Not Died
+Kabale,25.0,Female,Surgical,no,no,No,Not Died
+Kabale,0.0,Male,Surgical,no,no,No,Not Died
+Kabale,54.0,Male,Medical,no,no,No,Died
+Kabale,63.0,Female,Medical,yes,no,No,Died
+Kabale,24.0,Female,Medical,yes,no,No,Not Died
+Kabale,80.0,Female,Medical,no,no,No,Not Died
+Kabale,67.0,Female,Medical,yes,no,No,Not Died
+Kabale,19.0,Female,Gynecology,no,no,No,Not Died
+Kabale,42.0,Female,Gynecology,no,no,No,Not Died
+Kabale,32.0,Female,Gynecology,no,yes,Yes,Not Died
+Kabale,,Female,Medical,no,no,No,Not Died
+Kabale,75.0,Male,Medical,no,no,No,Not Died
+Kabale,26.0,Male,Medical,yes,no,No,Not Died
+Kabale,74.0,Female,Medical,yes,no,No,Not Died
+Kabale,26.0,Female,Medical,no,no,No,Not Died
+Kabale,0.0,Female,Surgical,no,yes,No,Not Died
+Kabale,20.0,Female,Surgical,no,no,No,Not Died
+Kabale,3.0,Male,Surgical,no,no,No,Not Died
+Kabale,20.0,Female,Surgical,no,yes,No,Not Died
+Kabale,46.0,Male,Surgical,no,yes,No,Not Died
+Kabale,53.0,Male,Surgical,no,yes,No,Not Died
+Kabale,28.0,Female,Surgical,no,yes,No,Not Died
+Kabale,43.0,Male,Surgical,no,no,No,Not Died
+Kabale,44.0,Male,Surgical,no,yes,No,Not Died
+Kabale,48.0,Male,Surgical,no,no,No,Not Died
+Kabale,12.0,Male,Surgical,no,no,No,Not Died
+Kabale,24.0,Male,Surgical,no,no,No,Not Died
+Kabale,42.0,Male,Medical,no,yes,No,Not Died
+Kabale,44.0,Male,Medical,yes,yes,No,Not Died
+Kabale,53.0,Male,Medical,no,no,No,Not Died
+Kabale,64.0,Female,Medical,no,yes,No,Not Died
+Kabale,19.0,Male,Medical,no,no,No,Not Died
+Kabale,14.0,Female,Surgical,no,no,No,Not Died
+Kabale,45.0,Female,Surgical,no,yes,No,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Died
+Kabale,64.0,Male,Medical,no,yes,No,Not Died
+Kabale,35.0,Female,Medical,yes,yes,No,Not Died
+Kabale,64.0,Female,Medical,no,no,No,Not Died
+Kabale,13.0,Male,Medical,no,no,No,Not Died
+Kabale,80.0,Female,Medical,no,no,No,Not Died
+Kabale,74.0,Female,Medical,no,no,No,Not Died
+Kabale,72.0,Female,Medical,yes,yes,No,Not Died
+Kabale,40.0,Female,Medical,yes,no,No,Not Died
+Kabale,70.0,Female,Medical,yes,yes,No,Not Died
+Kabale,32.0,Male,Medical,yes,no,No,Not Died
+Kabale,42.0,Male,Medical,no,no,No,Not Died
+Kabale,30.0,Male,Surgical,no,yes,No,Not Died
+Kabale,84.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,28.0,Male,Surgical,no,yes,Yes,Not Died
+Kabale,40.0,Male,Surgical,yes,no,No,Not Died
+Kabale,21.0,Male,Surgical,no,yes,No,Not Died
+Kabale,38.0,Female,Gynecology,yes,yes,No,Not Died
+Kabale,17.0,Male,Surgical,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,70.0,Female,Surgical,no,yes,No,Not Died
+Kabale,37.0,Female,Surgical,no,no,No,Not Died
+Kabale,85.0,Male,Surgical,no,yes,No,Not Died
+Kabale,37.0,Male,Surgical,no,yes,No,Not Died
+Kabale,22.0,Male,Surgical,no,yes,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,18.0,Female,Maternity,no,yes,No,Not Died
+Lira,2.0,Female,Pediatric,no,yes,No,Died
+Lira,78.0,Female,Medical,no,yes,No,Not Died
+Lira,2.0,Female,Pediatric,no,yes,No,Not Died
+Lira,75.0,Female,Surgical,no,yes,No,Not Died
+Lira,23.0,Female,Medical,no,yes,No,Not Died
+Lira,49.0,Male,Medical,no,yes,No,Not Died
+Lira,1.0,Female,Pediatric,no,yes,No,Not Died
+Lira,17.0,Female,Surgical,no,yes,No,Not Died
+Lira,3.0,Male,Pediatric,no,no,No,Not Died
+Lira,93.0,Female,Surgical,no,yes,No,Not Died
+Lira,45.0,Male,Surgical,no,yes,No,Not Died
+Lira,52.0,Male,Surgical,yes,yes,No,Not Died
+Lira,75.0,Female,Surgical,yes,yes,No,Not Died
+Lira,61.0,Female,Surgical,yes,yes,No,Not Died
+Lira,73.0,Male,Medical,yes,yes,No,Not Died
+Lira,20.0,Female,Surgical,no,yes,No,Not Died
+Lira,74.0,Male,Surgical,no,yes,No,Not Died
+Lira,17.0,Female,Orthopedic,no,yes,No,Not Died
+Lira,1.0,Male,Surgical,no,yes,No,Not Died
+Lira,53.0,Female,Surgical,no,yes,No,Not Died
+Lira,59.0,Female,Surgical,no,yes,No,Died
+Lira,61.0,Male,Surgical,yes,yes,No,Not Died
+Lira,20.0,Female,Gynecology,no,no,No,Not Died
+Lira,31.0,Male,Medical,yes,yes,Yes,Not Died
+Lira,31.0,Male,Medical,yes,yes,Yes,Not Died
+Lira,12.0,Male,Medical,yes,no,No,Not Died
+Lira,63.0,Female,Medical,yes,yes,No,Not Died
+Lira,38.0,Male,Medical,yes,yes,No,Died
+Lira,24.0,Female,Medical,yes,yes,No,Not Died
+Lira,24.0,Female,Medical,yes,no,No,Not Died
+Lira,35.0,Male,Medical,no,no,No,Not Died
+Lira,58.0,Female,Gynecology,no,yes,No,Not Died
+Lira,38.0,Male,Medical,yes,no,No,Not Died
+Lira,28.0,Female,Gynecology,no,yes,No,Not Died
+Lira,17.0,Female,Surgical,no,no,Yes,Not Died
+Lira,94.0,Female,Surgical,no,no,No,Not Died
+Lira,49.0,Female,Surgical,yes,yes,Yes,Not Died
+Lira,2.0,Male,Pediatric,no,yes,No,Not Died
+Lira,41.0,Male,Surgical,yes,yes,No,Not Died
+Lira,0.0,Female,Pediatric,no,yes,Yes,Not Died
+Lira,14.0,Female,Medical,yes,no,No,Not Died
+Lira,32.0,Female,Surgical,no,no,No,Not Died
+Lira,30.0,Male,Surgical,no,yes,No,Not Died
+Lira,86.0,Male,Medical,no,no,No,Not Died
+Lira,24.0,Male,Surgical,yes,yes,No,Not Died
+Lira,43.0,Female,Medical,yes,yes,Yes,Not Died
+Lira,62.0,Female,Surgical,yes,yes,No,Died
+Lira,35.0,Male,Surgical,yes,yes,No,Died
+Lira,16.0,Female,Surgical,no,yes,No,Died
+Lira,22.0,Female,Surgical,no,yes,No,Died
+Lira,44.0,Male,Surgical,no,yes,No,Not Died
+Lira,56.0,Male,Surgical,no,yes,No,Died
+Lira,25.0,Male,Surgical,yes,yes,No,Not Died
+Lira,48.0,Male,Medical,no,no,No,Not Died
+Lira,70.0,Female,Surgical,no,no,No,Not Died
+Lira,27.0,Female,Medical,yes,no,Yes,Not Died
+Lira,49.0,Female,Medical,yes,no,No,Not Died
+Lira,83.0,Female,Surgical,yes,no,No,Not Died
+Lira,51.0,Male,Medical,yes,no,No,Died
+Lira,12.0,Female,Medical,no,no,No,Not Died
+Lira,75.0,Female,Surgical,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,70.0,Male,Medical,yes,no,No,Not Died
+Lira,58.0,Male,Medical,no,no,Yes,Not Died
+Lira,3.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,17.0,Female,Surgical,no,no,Yes,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,38.0,Male,Medical,no,no,No,Not Died
+Lira,65.0,Female,Medical,yes,no,No,Died
+Lira,13.0,Female,Medical,yes,yes,No,Not Died
+Lira,58.0,Female,Surgical,no,no,No,Not Died
+Lira,6.0,Male,ICU/HDU,no,yes,No,Died
+Lira,52.0,Male,Medical,no,yes,No,Died
+Lira,20.0,Male,Surgical,no,yes,Yes,Died
+Lira,20.0,Female,ICU/HDU,yes,yes,No,Died
+Lira,21.0,Female,Surgical,no,no,No,Not Died
+Lira,22.0,Female,Medical,no,no,No,Not Died
+Lira,0.0,Male,Medical,no,no,No,Not Died
+Lira,35.0,Female,Gynecology,no,no,No,Not Died
+Lira,27.0,Male,Surgical,no,yes,No,Not Died
+Lira,25.0,Male,Surgical,yes,yes,No,Not Died
+Lira,23.0,Male,Surgical,no,no,Yes,Not Died
+Lira,18.0,Female,Gynecology,no,yes,Yes,Died
+Lira,65.0,Male,Surgical,no,no,No,Not Died
+Lira,59.0,Male,Surgical,no,yes,No,Died
+Lira,57.0,Male,Surgical,yes,yes,No,Not Died
+Lira,60.0,Male,Surgical,yes,yes,No,Not Died
+Lira,38.0,Female,ICU/HDU,yes,yes,No,Not Died
+Lira,32.0,Male,Medical,yes,yes,No,Died
+Lira,18.0,Male,Medical,no,no,No,Not Died
+Lira,44.0,Female,Medical,yes,no,No,Died
+Lira,56.0,Female,Medical,yes,no,No,Died
+Lira,32.0,Female,Medical,yes,no,No,Died
+Lira,38.0,Male,Medical,yes,no,No,Died
+Lira,36.0,Female,Gynecology,yes,no,No,Died
+Lira,0.0,Female,Pediatric,no,no,No,Not Died
+Lira,20.0,Male,Surgical,no,no,No,Not Died
+Lira,20.0,Male,Surgical,no,no,No,Not Died
+Lira,69.0,Male,Medical,yes,no,No,Died
+Lira,8.0,Male,Orthopedic,yes,yes,No,Not Died
+Lira,2.0,Female,Pediatric,no,yes,Yes,Not Died
+Lira,30.0,Male,Medical,no,no,No,Not Died
+Lira,20.0,Female,Gynecology,no,no,No,Not Died
+Lira,31.0,Male,Gynecology,no,yes,No,Not Died
+Lira,42.0,Male,Surgical,no,yes,No,Not Died
+Lira,47.0,Male,Medical,no,yes,Yes,Not Died
+Lira,47.0,Male,Medical,no,no,Yes,Not Died
+Lira,54.0,Male,Surgical,no,yes,No,Not Died
+Lira,79.0,Female,Medical,no,yes,No,Not Died
+Lira,30.0,Male,Surgical,no,yes,No,Not Died
+Lira,17.0,Male,Surgical,no,yes,No,Not Died
+Lira,18.0,Female,Surgical,no,yes,No,Not Died
+Lira,42.0,Male,Surgical,no,yes,No,Not Died
+Lira,27.0,Male,Surgical,no,yes,No,Not Died
+Lira,32.0,Female,Orthopedic,no,yes,No,Not Died
+Lira,23.0,Male,Surgical,no,yes,No,Not Died
+Lira,18.0,Female,Surgical,no,yes,No,Not Died
+Lira,24.0,Female,Medical,yes,yes,No,Not Died
+Lira,42.0,Female,Surgical,yes,yes,No,Not Died
+Lira,22.0,Female,Surgical,no,yes,No,Not Died
+Lira,30.0,Female,Medical,no,yes,No,Not Died
+Lira,50.0,Female,Medical,no,yes,No,Died
+Lira,26.0,Female,Gynecology,no,yes,No,Not Died
+Lira,96.0,Female,Surgical,yes,yes,No,Not Died
+Lira,42.0,Female,Orthopedic,no,yes,No,Not Died
+Lira,40.0,Male,Surgical,no,yes,No,Died
+Lira,18.0,Female,Surgical,yes,yes,No,Not Died
+Lira,25.0,Female,Surgical,no,no,No,Not Died
+Lira,43.0,Male,Surgical,no,no,No,Not Died
+Lira,53.0,Female,Surgical,no,yes,No,Not Died
+Lira,71.0,Female,Surgical,yes,yes,No,Not Died
+Lira,75.0,Female,Surgical,yes,yes,Yes,Not Died
+Lira,56.0,Female,Medical,yes,yes,No,Not Died
+Lira,22.0,Male,Surgical,no,yes,No,Not Died
+Lira,60.0,Male,Surgical,yes,yes,No,Not Died
+Lira,53.0,Male,Surgical,yes,yes,No,Not Died
+Soroti,78.0,Female,Surgical,no,yes,Yes,Not Died
+Lira,65.0,Male,Surgical,no,yes,No,Not Died
+Lira,17.0,Male,Surgical,no,yes,No,Not Died
+Lira,32.0,Female,Medical,yes,yes,No,Not Died
+Lira,25.0,Female,Surgical,no,yes,No,Not Died
+Lira,18.0,Female,Gynecology,no,yes,No,Not Died
+Lira,39.0,Female,Medical,yes,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,4.0,Female,Pediatric,no,no,No,Not Died
+Lira,32.0,Male,Medical,yes,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,5.0,Male,Pediatric,yes,no,No,Not Died
+Lira,3.0,Female,Pediatric,no,no,Yes,Not Died
+Lira,80.0,Female,Surgical,no,no,No,Not Died
+Lira,44.0,Female,Medical,yes,no,No,Not Died
+Lira,68.0,Female,Surgical,yes,no,No,Not Died
+Lira,30.0,Male,Medical,yes,no,No,Not Died
+Lira,21.0,Female,Medical,yes,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,no,Yes,Not Died
+Lira,1.0,Female,Pediatric,no,no,Yes,Not Died
+Lira,30.0,Male,Medical,yes,no,No,Died
+Lira,10.0,Male,Medical,no,no,No,Died
+Lira,25.0,Male,Medical,no,no,No,Died
+Lira,8.0,Male,Pediatric,no,no,No,Not Died
+Lira,24.0,Male,Medical,no,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,no,No,Died
+Lira,21.0,Male,Medical,no,no,No,Not Died
+Lira,17.0,Male,Medical,no,no,No,Not Died
+Lira,29.0,Male,Surgical,no,no,No,Not Died
+Lira,1.0,Female,Pediatric,no,no,No,Not Died
+Lira,88.0,Male,ICU/HDU,yes,yes,No,Died
+Lira,48.0,Female,Surgical,no,yes,No,Died
+Lira,1.0,Female,Pediatric,yes,yes,No,Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,60.0,Female,Surgical,no,no,No,Not Died
+Lira,60.0,Male,Medical,no,no,Yes,Not Died
+Lira,47.0,Male,Surgical,no,no,No,Not Died
+Lira,23.0,Male,Medical,yes,no,No,Not Died
+Lira,10.0,Male,Medical,no,no,No,Not Died
+Lira,2.0,Female,Pediatric,no,no,No,Not Died
+Lira,2.0,Female,Surgical,no,no,No,Not Died
+Lira,23.0,Male,Medical,yes,no,No,Not Died
+Lira,80.0,Female,Surgical,no,no,No,Not Died
+Lira,35.0,Male,Medical,yes,no,No,Died
+Lira,3.0,Male,Pediatric,no,no,No,Not Died
+Lira,26.0,Female,Medical,yes,no,No,Not Died
+Lira,37.0,Female,Medical,yes,no,No,Not Died
+Lira,7.0,Male,ICU/HDU,yes,no,No,Not Died
+Lira,55.0,Male,Medical,no,no,No,Died
+Lira,35.0,Female,Medical,yes,no,No,Not Died
+Lira,53.0,Female,Medical,no,no,No,Died
+Lira,15.0,Female,Medical,no,no,No,Died
+Lira,10.0,Male,Pediatric,yes,no,No,Died
+Lira,30.0,Male,Medical,no,no,No,Died
+Lira,25.0,Female,Medical,yes,no,No,Died
+Lira,52.0,Female,Medical,yes,no,No,Not Died
+Lira,34.0,Male,Medical,no,no,Yes,Died
+Lira,10.0,Female,Pediatric,no,no,No,Not Died
+Lira,18.0,Male,Medical,no,no,Yes,Died
+Lira,51.0,Male,Medical,yes,no,No,Not Died
+Lira,39.0,Female,Medical,yes,no,No,Not Died
+Lira,32.0,Male,Medical,yes,no,No,Died
+Lira,17.0,Male,Orthopedic,yes,no,No,Not Died
+Lira,42.0,Male,Medical,yes,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,9.0,Female,Medical,no,yes,No,Died
+Lira,22.0,Male,Surgical,no,yes,No,Not Died
+Lira,23.0,Male,Surgical,no,yes,Yes,Not Died
+Lira,22.0,Female,Gynecology,no,yes,Yes,Not Died
+Lira,16.0,Female,Surgical,no,yes,No,Not Died
+Lira,22.0,Female,Gynecology,no,no,No,Not Died
+Lira,37.0,Male,Medical,no,yes,No,Not Died
+Lira,70.0,Female,Medical,no,no,No,Died
+Lira,39.0,Female,Medical,no,no,No,Not Died
+Lira,4.0,Male,Pediatric,no,no,Yes,Died
+Lira,19.0,Female,Surgical,yes,yes,No,Not Died
+Lira,42.0,Female,Surgical,no,yes,No,Not Died
+Lira,20.0,Female,Maternity,no,yes,No,Not Died
+Lira,20.0,Female,Maternity,no,yes,No,Not Died
+Lira,22.0,Male,Surgical,no,yes,No,Not Died
+Lira,54.0,Female,Surgical,yes,yes,Yes,Not Died
+Lira,54.0,Female,Surgical,yes,yes,Yes,Not Died
+Lira,8.0,Female,Medical,no,yes,No,Not Died
+Lira,8.0,Female,Medical,no,no,No,Not Died
+Lira,8.0,Female,Medical,no,no,No,Not Died
+Lira,83.0,Male,Surgical,no,no,No,Not Died
+Lira,30.0,Male,Medical,yes,no,No,Not Died
+Lira,22.0,Female,Medical,no,no,No,Not Died
+Lira,42.0,Male,Medical,yes,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Died
+Lira,40.0,Male,Medical,no,no,No,Not Died
+Lira,48.0,Female,Medical,yes,no,No,Not Died
+Lira,20.0,Male,Surgical,no,no,No,Not Died
+Lira,3.0,Female,Pediatric,no,no,Yes,Not Died
+Lira,0.0,Female,Pediatric,yes,no,No,Not Died
+Lira,24.0,Male,Medical,yes,no,No,Not Died
+Lira,36.0,Male,Surgical,no,no,Yes,Not Died
+Lira,40.0,Female,Medical,yes,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,23.0,Male,Medical,yes,no,Yes,Not Died
+Lira,1.0,Male,Pediatric,yes,no,Yes,Not Died
+Lira,15.0,Female,Surgical,no,no,No,Not Died
+Lira,15.0,Female,Surgical,no,yes,No,Not Died
+Lira,10.0,Female,Pediatric,no,no,No,Not Died
+Lira,19.0,Female,Medical,yes,no,No,Died
+Lira,46.0,Male,Medical,yes,no,No,Died
+Lira,23.0,Male,Medical,no,no,No,Died
+Lira,23.0,Male,Medical,yes,no,No,Died
+Lira,54.0,Male,Medical,yes,no,No,Not Died
+Lira,59.0,Male,Medical,no,no,Yes,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,4.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,yes,No,Not Died
+Lira,0.0,Female,Pediatric,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,yes,No,Not Died
+Lira,21.0,Female,Medical,no,no,No,Not Died
+Lira,5.0,Male,Surgical,yes,no,Yes,Not Died
+Lira,74.0,Female,Surgical,no,no,No,Not Died
+Lira,23.0,Female,Surgical,no,no,Yes,Not Died
+Lira,29.0,Female,Surgical,no,no,Yes,Not Died
+Lira,39.0,Male,Medical,no,no,Yes,Not Died
+Lira,28.0,Female,Medical,yes,no,Yes,Not Died
+Lira,1.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,1.0,Female,Pediatric,no,no,No,Not Died
+Lira,46.0,Male,Medical,yes,no,No,Not Died
+Lira,50.0,Male,Surgical,no,yes,No,Not Died
+Lira,22.0,Male,Medical,no,no,No,Died
+Lira,7.0,Male,Surgical,yes,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,no,No,Not Died
+Lira,32.0,Male,Medical,yes,no,Yes,Not Died
+Lira,80.0,Female,Medical,yes,no,Yes,Not Died
+Lira,38.0,Female,Medical,yes,no,No,Died
+Lira,35.0,Female,Surgical,yes,no,No,Not Died
+Lira,7.0,Female,Pediatric,no,no,No,Not Died
+Lira,59.0,Male,Medical,yes,no,Yes,Died
+Lira,25.0,Female,Medical,no,no,No,Died
+Lira,51.0,Male,Medical,no,no,No,Died
+Lira,36.0,Male,Medical,no,no,No,Not Died
+Lira,40.0,Female,Surgical,yes,no,No,Not Died
+Lira,35.0,Female,Surgical,yes,yes,No,Not Died
+Lira,19.0,Female,Medical,yes,no,No,Died
+Lira,96.0,Male,Surgical,no,no,No,Not Died
+Lira,0.0,Female,NICU,no,no,No,Not Died
+Lira,19.0,Male,Surgical,no,yes,No,Not Died
+Lira,48.0,Male,Surgical,no,yes,No,Not Died
+Lira,42.0,Male,Surgical,no,yes,No,Not Died
+Lira,40.0,Female,Medical,no,no,No,Not Died
+Lira,48.0,Male,Medical,no,no,No,Not Died
+Lira,47.0,Female,Surgical,no,yes,No,Not Died
+Lira,19.0,Female,Gynecology,no,no,No,Not Died
+Lira,27.0,Male,Medical,no,yes,No,Not Died
+Lira,35.0,Male,Medical,yes,no,No,Died
+Lira,2.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,50.0,Male,Surgical,no,yes,Yes,Not Died
+Lira,60.0,Male,Medical,yes,yes,Yes,Not Died
+Lira,35.0,Male,Medical,no,no,No,Died
+Lira,23.0,Female,Gynecology,no,yes,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,Yes,Not Died
+Lira,10.0,Female,Medical,no,yes,No,Not Died
+Lira,19.0,Female,Gynecology,no,no,No,Not Died
+Lira,3.0,Female,Pediatric,yes,no,No,Not Died
+Lira,17.0,Female,Gynecology,no,no,No,Died
+Lira,32.0,Female,Gynecology,no,yes,No,Not Died
+Lira,35.0,Male,Medical,yes,yes,No,Not Died
+Lira,25.0,Female,Gynecology,no,no,No,Not Died
+Lira,5.0,Male,Pediatric,no,yes,No,Not Died
+Lira,11.0,Female,Medical,no,no,No,Not Died
+Lira,0.0,Female,NICU,no,no,No,Not Died
+Lira,33.0,Female,Medical,no,no,No,Not Died
+Lira,45.0,Male,Medical,yes,no,No,Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,32.0,Female,Gynecology,no,yes,Yes,Not Died
+Lira,32.0,Female,Gynecology,no,no,Yes,Not Died
+Lira,10.0,Female,Surgical,no,no,No,Not Died
+Lira,35.0,Male,Medical,no,no,No,Died
+Lira,87.0,Male,Medical,no,no,No,Not Died
+Lira,39.0,Female,Gynecology,no,yes,No,Not Died
+Lira,2.0,Female,Pediatric,no,no,Yes,Not Died
+Lira,45.0,Male,Medical,yes,no,No,Died
+Lira,37.0,Female,Maternity,no,yes,No,Not Died
+Lira,18.0,Female,Maternity,no,yes,No,Not Died
+Lira,73.0,Female,Surgical,no,yes,No,Not Died
+Lira,40.0,Male,Medical,no,no,No,Died
+Lira,52.0,Female,Surgical,yes,yes,No,Not Died
+Lira,4.0,Female,Pediatric,yes,no,No,Not Died
+Lira,33.0,Female,Medical,no,no,No,Not Died
+Lira,36.0,Female,Medical,yes,no,Yes,Not Died
+Lira,15.0,Female,Medical,no,no,No,Not Died
+Lira,0.0,Male,NICU,no,yes,No,Not Died
+Lira,25.0,Female,Medical,yes,yes,Yes,Not Died
+Lira,50.0,Male,Medical,no,no,No,Not Died
+Lira,31.0,Female,Gynecology,no,no,No,Not Died
+Lira,32.0,Female,Gynecology,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,NICU,no,no,No,Died
+Lira,52.0,Female,Surgical,yes,yes,No,Not Died
+Lira,36.0,Female,Surgical,no,no,No,Not Died
+Lira,0.0,Male,NICU,no,no,No,Died
+Lira,30.0,Female,Maternity,yes,no,No,Not Died
+Lira,63.0,Male,Medical,no,no,No,Not Died
+Lira,24.0,Female,Medical,no,yes,No,Died
+Lira,42.0,Male,Medical,yes,no,No,Not Died
+Lira,33.0,Female,Gynecology,no,no,No,Not Died
+Lira,77.0,Male,Surgical,no,yes,No,Not Died
+Lira,61.0,Male,Surgical,no,no,No,Not Died
+Lira,31.0,Male,Medical,no,no,No,Not Died
+Lira,48.0,Male,Surgical,no,yes,No,Not Died
+Lira,90.0,Female,Medical,no,yes,No,Not Died
+Lira,1.0,Male,NICU,no,no,No,Not Died
+Lira,1.0,Male,Pediatric,yes,no,No,Died
+Lira,4.0,Male,NICU,yes,no,No,Not Died
+Lira,16.0,Male,Surgical,no,no,No,Not Died
+Lira,18.0,Male,Medical,no,yes,No,Not Died
+Lira,20.0,Female,Surgical,no,yes,No,Not Died
+Lira,76.0,Female,Surgical,yes,yes,No,Not Died
+Lira,59.0,Male,Medical,no,no,No,Not Died
+Lira,20.0,Female,Gynecology,no,no,No,Not Died
+Lira,28.0,Male,Surgical,no,yes,No,Not Died
+Lira,21.0,Female,Surgical,no,yes,No,Not Died
+Lira,4.0,Female,Pediatric,no,no,No,Not Died
+Lira,18.0,Female,Surgical,no,yes,No,Not Died
+Lira,36.0,Male,Gynecology,no,no,No,Not Died
+Lira,43.0,Female,Medical,no,no,No,Not Died
+Lira,36.0,Female,Gynecology,no,yes,No,Not Died
+Lira,21.0,Female,Gynecology,no,yes,No,Not Died
+Lira,4.0,Female,Pediatric,no,no,No,Not Died
+Lira,18.0,Female,Surgical,no,yes,No,Not Died
+Lira,23.0,Female,Medical,yes,no,No,Not Died
+Lira,,Female,Medical,no,no,No,Not Died
+Lira,47.0,Male,Medical,yes,no,No,Died
+Lira,26.0,Male,Medical,no,no,No,Not Died
+Lira,25.0,Male,Medical,no,no,No,Died
+Lira,0.0,Female,Pediatric,no,no,No,Not Died
+Lira,38.0,Female,Surgical,no,no,No,Not Died
+Lira,4.0,Male,Pediatric,no,no,No,Not Died
+Lira,27.0,Male,Surgical,no,no,No,Not Died
+Lira,55.0,Male,Surgical,yes,yes,No,Not Died
+Lira,26.0,Male,Medical,no,no,No,Not Died
+Lira,15.0,Male,Medical,no,no,No,Not Died
+Lira,12.0,Female,Medical,no,no,No,Not Died
+Lira,12.0,Female,Medical,no,no,No,Not Died
+Lira,16.0,Female,Medical,no,no,No,Died
+Lira,2.0,Male,Pediatric,no,yes,No,Not Died
+Lira,6.0,Male,Pediatric,no,no,No,Not Died
+Lira,38.0,Female,Medical,no,no,No,Died
+Lira,17.0,Female,Medical,no,yes,No,Not Died
+Lira,25.0,Female,Gynecology,no,yes,Yes,Not Died
+Lira,5.0,Male,Pediatric,yes,no,No,Not Died
+Lira,3.0,Male,Pediatric,no,yes,No,Not Died
+Lira,43.0,Female,Medical,no,no,No,Not Died
+Lira,45.0,Male,Medical,no,no,No,Not Died
+Lira,28.0,Female,Medical,no,yes,No,Not Died
+Lira,15.0,Female,Medical,yes,yes,No,Not Died
+Lira,0.0,Male,Pediatric,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,yes,No,Not Died
+Lira,15.0,Female,Medical,yes,yes,No,Not Died
+Lira,18.0,Female,Maternity,no,yes,No,Not Died
+Lira,48.0,Male,ICU/HDU,no,yes,No,Not Died
+Lira,16.0,Male,Surgical,yes,yes,No,Not Died
+Lira,38.0,Female,Maternity,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,yes,No,Not Died
+Lira,66.0,Female,Surgical,no,yes,No,Not Died
+Lira,62.0,Female,Medical,yes,yes,No,Not Died
+Lira,24.0,Female,Medical,no,yes,No,Not Died
+Lira,43.0,Female,Surgical,no,yes,No,Not Died
+Lira,0.0,Female,Pediatric,no,yes,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,1.0,Male,Pediatric,no,no,No,Not Died
+Lira,22.0,Female,ICU/HDU,no,no,No,Died
+Lira,48.0,Female,Medical,yes,no,No,Not Died
+Lira,19.0,Male,Surgical,no,no,No,Not Died
+Lira,2.0,Male,Pediatric,yes,no,No,Not Died
+Lira,2.0,Male,Pediatric,no,no,No,Not Died
+Lira,35.0,Male,Medical,yes,no,No,Not Died
+Lira,5.0,Male,Medical,no,no,No,Not Died
+Lira,37.0,Male,Medical,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,Yes,Died
+Lira,36.0,Female,Medical,yes,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,44.0,Male,Medical,yes,no,No,Not Died
+Lira,83.0,Male,Medical,no,yes,No,Not Died
+Lira,0.0,Male,Pediatric,no,yes,No,Not Died
+Lira,48.0,Male,Medical,no,yes,No,Not Died
+Lira,18.0,Male,Medical,no,yes,No,Not Died
+Lira,83.0,Female,Medical,no,yes,No,Not Died
+Lira,25.0,Female,Maternity,no,yes,Yes,Not Died
+Lira,40.0,Female,Medical,no,yes,No,Not Died
+Lira,2.0,Male,Pediatric,no,yes,No,Not Died
+Lira,18.0,Female,Pediatric,no,yes,No,Not Died
+Lira,23.0,Male,ICU/HDU,yes,yes,No,Not Died
+Lira,0.0,Female,NICU,no,yes,Yes,Not Died
+Lira,67.0,Female,Medical,yes,yes,No,Not Died
+Lira,19.0,Female,Gynecology,no,no,No,Not Died
+Lira,2.0,Male,NICU,no,yes,No,Not Died
+Lira,53.0,Male,Surgical,no,yes,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,9.0,Male,Pediatric,yes,no,No,Not Died
+Lira,9.0,Male,Surgical,no,yes,No,Not Died
+Lira,1.0,Female,Pediatric,no,no,No,Not Died
+Lira,48.0,Female,ICU/HDU,yes,no,No,Not Died
+Lira,3.0,Male,Pediatric,yes,no,No,Died
+Lira,25.0,Female,Maternity,no,no,No,Not Died
+Lira,42.0,Male,Medical,yes,no,No,Not Died
+Lira,6.0,Female,Medical,no,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Died
+Lira,7.0,Female,Medical,no,no,No,Not Died
+Lira,80.0,Female,Medical,no,no,No,Not Died
+Lira,29.0,Male,Medical,no,no,No,Not Died
+Lira,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Female,Pediatric,no,yes,No,Not Died
+Lira,3.0,Female,Pediatric,yes,no,No,Not Died
+Lira,24.0,Female,Pediatric,no,no,No,Not Died
+Lira,8.0,Male,Pediatric,no,no,No,Not Died
+Lira,66.0,Female,ICU/HDU,yes,yes,No,Not Died
+Lira,67.0,Female,ICU/HDU,yes,yes,No,Not Died
+Masaka,4.0,Female,Pediatric,yes,yes,Yes,Not Died
+Masaka,10.0,Female,Pediatric,yes,no,No,Not Died
+Masaka,3.0,Male,Medical,no,no,No,Not Died
+Masaka,40.0,Male,Medical,no,no,No,Not Died
+Masaka,0.0,Male,Pediatric,no,no,No,Not Died
+Masaka,67.0,Male,Surgical,no,no,No,Not Died
+Masaka,7.0,Male,Medical,no,no,No,Not Died
+Masaka,4.0,Male,Pediatric,no,no,No,Not Died
+Masaka,2.0,Female,Pediatric,yes,no,No,Not Died
+Masaka,1.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,57.0,Female,Surgical,no,yes,No,Not Died
+Masaka,75.0,Female,Surgical,no,yes,No,Not Died
+Masaka,48.0,Male,Surgical,no,no,No,Not Died
+Masaka,13.0,Female,Surgical,no,yes,No,Not Died
+Masaka,39.0,Female,Gynecology,no,no,No,Not Died
+Masaka,19.0,Male,Surgical,no,no,No,Not Died
+Masaka,0.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,45.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,28.0,Male,Surgical,no,yes,No,Not Died
+Masaka,0.0,Male,Medical,no,no,No,Not Died
+Masaka,43.0,Male,Surgical,no,yes,No,Not Died
+Masaka,71.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,42.0,Male,Surgical,no,yes,No,Not Died
+Masaka,2.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,81.0,Male,Medical,yes,no,No,Not Died
+Masaka,63.0,Male,Surgical,no,yes,No,Not Died
+Masaka,42.0,Male,Surgical,no,yes,No,Not Died
+Masaka,44.0,Female,Surgical,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Masaka,40.0,Male,Surgical,no,yes,No,Not Died
+Masaka,31.0,Female,Medical,no,yes,No,Not Died
+Masaka,65.0,Male,Surgical,no,yes,No,Not Died
+Masaka,53.0,Female,Surgical,no,no,No,Not Died
+Masaka,45.0,Male,Surgical,no,yes,No,Not Died
+Masaka,29.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,46.0,Male,Surgical,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,Yes,Not Died
+Masaka,58.0,Male,Medical,no,yes,No,Not Died
+Masaka,2.0,Female,NICU,no,yes,No,Died
+Masaka,0.0,Female,NICU,no,yes,Yes,Died
+Masaka,75.0,Female,Surgical,no,no,No,Not Died
+Masaka,20.0,Female,Medical,yes,no,No,Not Died
+Masaka,63.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,28.0,Male,Surgical,no,yes,No,Not Died
+Masaka,45.0,Male,Surgical,no,yes,No,Not Died
+Masaka,37.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,52.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,62.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,17.0,Male,Medical,no,no,No,Not Died
+Masaka,52.0,Male,Medical,no,yes,No,Not Died
+Masaka,43.0,Female,Medical,yes,no,No,Not Died
+Masaka,58.0,Female,Surgical,yes,yes,No,Not Died
+Masaka,62.0,Female,Medical,yes,yes,No,Died
+Masaka,60.0,Male,Orthopedic,no,yes,No,Not Died
+Masaka,39.0,Female,Medical,yes,yes,No,Not Died
+Masaka,30.0,Male,Surgical,no,yes,No,Not Died
+Masaka,36.0,Male,Surgical,no,yes,No,Not Died
+Masaka,2.0,Male,Surgical,no,yes,No,Not Died
+Masaka,50.0,Male,Medical,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Died
+Masaka,0.0,Female,NICU,no,yes,Yes,Not Died
+Masaka,17.0,Male,Medical,no,no,No,Not Died
+Masaka,36.0,Male,Medical,no,no,Yes,Not Died
+Masaka,44.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,30.0,Male,Medical,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Masaka,26.0,Female,Maternity,no,no,No,Not Died
+Masaka,30.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,0.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,61.0,Female,Medical,no,yes,No,Not Died
+Masaka,45.0,Male,Surgical,no,yes,No,Not Died
+Masaka,48.0,Female,Medical,yes,yes,No,Not Died
+Masaka,13.0,Male,Medical,no,yes,No,Not Died
+Masaka,37.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,48.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,6.0,Male,Pediatric,no,no,No,Not Died
+Masaka,95.0,Male,Medical,no,no,No,Not Died
+Masaka,74.0,Female,Medical,yes,no,No,Not Died
+Masaka,7.0,Male,Pediatric,no,no,No,Not Died
+Masaka,2.0,Female,Pediatric,no,no,No,Not Died
+Masaka,1.0,Male,Pediatric,yes,no,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,65.0,Male,Surgical,yes,yes,No,Died
+Masaka,2.0,Female,Surgical,no,yes,No,Not Died
+Masaka,42.0,Male,Surgical,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Not Died
+Masaka,38.0,Male,Surgical,no,yes,No,Not Died
+Masaka,32.0,Female,Medical,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Died
+Masaka,0.0,Male,NICU,no,yes,No,Died
+Masaka,37.0,Female,Medical,no,yes,No,Not Died
+Masaka,23.0,Female,Medical,no,yes,No,Not Died
+Masaka,54.0,Male,Surgical,no,yes,No,Not Died
+Masaka,29.0,Female,Medical,no,yes,No,Not Died
+Masaka,58.0,Male,Surgical,no,yes,No,Not Died
+Masaka,85.0,Female,Medical,no,yes,No,Not Died
+Masaka,62.0,Male,Surgical,no,yes,No,Not Died
+Masaka,43.0,Male,Surgical,no,yes,No,Died
+Masaka,34.0,Female,Medical,yes,yes,No,Not Died
+Masaka,30.0,Female,Surgical,no,yes,No,Not Died
+Masaka,3.0,Male,Surgical,no,yes,No,Not Died
+Masaka,54.0,Female,Surgical,yes,yes,No,Not Died
+Masaka,78.0,Male,Surgical,yes,yes,Yes,Not Died
+Masaka,0.0,Female,Maternity,no,yes,Yes,Not Died
+Masaka,57.0,Male,Medical,no,no,No,Died
+Masaka,25.0,Male,Orthopedic,no,no,No,Not Died
+Mbale,11.0,Male,Orthopedic,no,no,No,Not Died
+Mbale,3.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,3.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,56.0,Female,Orthopedic,no,yes,Yes,Not Died
+Mbale,22.0,Female,Orthopedic,no,yes,Yes,Not Died
+Mbale,62.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,90.0,Female,Orthopedic,no,yes,Yes,Not Died
+Mbale,63.0,Male,Orthopedic,yes,yes,No,Not Died
+Mbale,31.0,Male,Surgical,yes,no,No,Not Died
+Mbale,22.0,Male,Surgical,no,yes,No,Not Died
+Mbale,51.0,Male,Surgical,yes,yes,No,Died
+Mbale,57.0,Male,ICU/HDU,yes,yes,Yes,Not Died
+Mbale,40.0,Female,Medical,no,yes,No,Not Died
+Mbale,40.0,Male,Medical,no,no,No,Not Died
+Mbale,61.0,Female,Medical,yes,yes,No,Not Died
+Mbale,20.0,Female,Maternity,no,no,No,Not Died
+Mbale,9.0,Female,Surgical,no,yes,No,Not Died
+Mbale,35.0,Female,Surgical,no,yes,No,Not Died
+Mbale,45.0,Female,Surgical,no,yes,No,Not Died
+Mbale,52.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,51.0,Male,Surgical,no,yes,Yes,Not Died
+Mbale,0.0,Male,Surgical,no,yes,Yes,Not Died
+Mbale,39.0,Male,Surgical,no,yes,No,Not Died
+Mbale,56.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,29.0,Female,Gynecology,no,no,No,Not Died
+Mbale,22.0,Female,Surgical,no,yes,No,Not Died
+Mbale,36.0,Male,Surgical,no,no,Yes,Not Died
+Mbale,30.0,Female,Surgical,no,yes,No,Not Died
+Mbale,45.0,Female,Surgical,no,yes,No,Not Died
+Mbale,14.0,Female,Surgical,no,yes,No,Died
+Mbale,60.0,Female,Gynecology,yes,yes,No,Not Died
+Mbale,1.0,Male,Surgical,no,yes,No,Died
+Mbale,32.0,Female,Gynecology,no,no,Yes,Not Died
+Mbale,30.0,Female,Gynecology,no,yes,Yes,Not Died
+Mbale,37.0,Female,Gynecology,no,yes,No,Not Died
+Mbale,35.0,Female,Gynecology,no,no,No,Not Died
+Mbale,17.0,Female,Gynecology,no,yes,Yes,Not Died
+Mbale,32.0,Female,Gynecology,no,yes,No,Not Died
+Mbale,22.0,Female,Gynecology,yes,yes,No,Not Died
+Mbale,29.0,Female,Gynecology,no,no,No,Not Died
+Mbale,50.0,Male,Surgical,no,yes,No,Died
+Mbale,24.0,Male,Surgical,no,yes,No,Not Died
+Mbale,59.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,50.0,Female,Medical,no,no,No,Not Died
+Mbale,51.0,Male,Surgical,no,no,No,Not Died
+Mbale,37.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,7.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,7.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,28.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,50.0,Female,Surgical,no,yes,No,Not Died
+Mbale,0.0,Male,Pediatric,no,no,No,Not Died
+Mbale,72.0,Male,Medical,yes,no,No,Not Died
+Mbale,23.0,Female,Maternity,no,yes,No,Not Died
+Mbale,1.0,Male,Pediatric,no,yes,No,Not Died
+Mbale,65.0,Female,Medical,no,no,No,Not Died
+Mbale,55.0,Male,Surgical,no,yes,Yes,Not Died
+Mbale,1.0,Male,Medical,yes,yes,No,Not Died
+Mbale,44.0,Male,Medical,no,no,No,Not Died
+Mbale,39.0,Male,Medical,yes,no,No,Died
+Mbale,51.0,Female,Surgical,no,yes,No,Not Died
+Mbale,60.0,Male,Surgical,yes,yes,Yes,Died
+Mbale,60.0,Male,Surgical,yes,no,Yes,Died
+Mbale,39.0,Male,Gynecology,no,no,No,Not Died
+Mbale,19.0,Male,Surgical,no,yes,No,Not Died
+Mbale,28.0,Female,Surgical,no,yes,No,Not Died
+Mbale,1.0,Male,Medical,yes,yes,No,Not Died
+Mbale,34.0,Female,Surgical,no,yes,No,Not Died
+Mbale,1.0,Male,Pediatric,no,yes,Yes,Not Died
+Mbale,70.0,Female,Orthopedic,yes,yes,No,Not Died
+Mbale,45.0,Male,Surgical,no,yes,No,Not Died
+Mbale,54.0,Male,ICU/HDU,yes,yes,No,Not Died
+Mbale,23.0,Female,ICU/HDU,no,yes,No,Not Died
+Mbale,55.0,Female,Medical,no,no,No,Not Died
+Mbale,38.0,Female,Medical,no,no,No,Not Died
+Mbale,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbale,44.0,Male,Medical,no,no,No,Not Died
+Mbale,38.0,Male,Medical,yes,no,No,Not Died
+Mbale,30.0,Male,Medical,yes,no,No,Not Died
+Mbale,43.0,Female,Surgical,no,yes,No,Not Died
+Mbale,0.0,Male,Surgical,no,yes,No,Died
+Mbale,45.0,Male,Surgical,no,yes,No,Died
+Mbale,62.0,Male,Surgical,no,yes,No,Not Died
+Mbale,17.0,Female,Surgical,no,yes,No,Not Died
+Mbale,24.0,Male,Medical,no,no,No,Not Died
+Mbale,18.0,Male,Medical,no,no,No,Not Died
+Mbale,54.0,Female,Medical,yes,no,No,Died
+Mbale,45.0,Female,Medical,yes,yes,No,Not Died
+Mbale,21.0,Female,Surgical,no,no,No,Not Died
+Mbale,13.0,Male,Surgical,no,yes,No,Not Died
+Mbale,43.0,Male,Surgical,no,no,No,Died
+Mbale,60.0,Female,Medical,yes,no,No,Died
+Mbale,13.0,Male,Pediatric,no,no,No,Not Died
+Mbale,45.0,Male,Surgical,no,yes,No,Not Died
+Mbale,61.0,Female,Medical,yes,no,No,Not Died
+Mbale,55.0,Male,Medical,yes,no,No,Not Died
+Mbale,12.0,Male,Medical,no,no,Yes,Not Died
+Mbale,29.0,Female,Gynecology,no,no,No,Not Died
+Mbale,29.0,Female,Gynecology,no,no,No,Not Died
+Mbale,0.0,Female,Surgical,no,no,No,Not Died
+Mbale,15.0,Female,Gynecology,no,no,No,Not Died
+Mbale,15.0,Female,Gynecology,no,no,No,Not Died
+Mbale,40.0,Female,Gynecology,no,no,Yes,Not Died
+Mbale,40.0,Female,Gynecology,no,no,Yes,Not Died
+Mbale,25.0,Male,Medical,no,no,Yes,Not Died
+Mbale,33.0,Female,Surgical,no,yes,No,Not Died
+Mbale,27.0,Female,Surgical,no,yes,No,Not Died
+Mbale,67.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,38.0,Female,Surgical,no,yes,No,Not Died
+Mbale,35.0,Female,Surgical,no,yes,No,Not Died
+Mbale,45.0,Female,Medical,no,no,No,Not Died
+Mbale,67.0,Male,Surgical,no,no,No,Not Died
+Mbale,27.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,3.0,Male,Pediatric,no,no,No,Not Died
+Mbale,29.0,Female,Orthopedic,no,no,No,Not Died
+Mbale,12.0,Female,Orthopedic,no,no,No,Not Died
+Mbale,53.0,Female,Orthopedic,yes,yes,No,Not Died
+Mbale,22.0,Female,Orthopedic,no,yes,No,Not Died
+Mbale,7.0,Male,Orthopedic,no,yes,No,Not Died
+Mbale,22.0,Female,Medical,no,yes,No,Not Died
+Gulu,43.0,Female,ICU/HDU,yes,yes,No,Died
+Mbale,22.0,Female,Medical,no,yes,No,Not Died
+Mbale,64.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,17.0,Male,Medical,no,no,No,Not Died
+Mbale,90.0,Male,Medical,yes,yes,Yes,Not Died
+Mbale,65.0,Male,Medical,yes,no,No,Not Died
+Mbale,52.0,Female,Surgical,yes,yes,No,Not Died
+Mbale,60.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,34.0,Female,Surgical,no,yes,No,Not Died
+Mbale,73.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbale,50.0,Male,Surgical,no,yes,Yes,Not Died
+Mbale,63.0,Male,Medical,yes,yes,No,Not Died
+Mbale,68.0,Female,Surgical,no,yes,No,Died
+Mbale,60.0,Female,Surgical,no,yes,No,Not Died
+Mbale,30.0,Male,Surgical,no,no,No,Not Died
+Mbale,42.0,Male,Surgical,yes,yes,No,Died
+Mbale,35.0,Male,Surgical,no,yes,No,Not Died
+Mbale,55.0,Female,Surgical,yes,yes,No,Died
+Mbale,21.0,Female,Gynecology,no,yes,No,Not Died
+Mbale,21.0,Female,Gynecology,no,yes,No,Not Died
+Mbale,23.0,Female,ICU/HDU,no,no,No,Not Died
+Mbale,19.0,Female,Medical,no,no,No,Not Died
+Mbale,14.0,Male,Medical,yes,no,No,Not Died
+Mbale,28.0,Female,Surgical,yes,yes,No,Died
+Mbale,16.0,Male,Surgical,no,yes,No,Not Died
+Mbale,31.0,Male,Medical,no,yes,No,Not Died
+Mbale,0.0,Male,Surgical,no,no,No,Not Died
+Mbale,18.0,Male,ICU/HDU,no,no,No,Not Died
+Mbale,52.0,Female,Surgical,no,yes,Yes,Not Died
+Mbale,22.0,Female,Surgical,no,yes,Yes,Not Died
+Mbale,54.0,Male,Surgical,yes,yes,No,Not Died
+Mbale,20.0,Male,Surgical,no,yes,No,Not Died
+Mbale,39.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,78.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,39.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,40.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,30.0,Male,Medical,no,no,No,Not Died
+Mbarara,24.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,55.0,Female,ICU/HDU,no,yes,No,Not Died
+Mbarara,11.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,27.0,Male,Surgical,no,yes,Yes,Not Died
+Mbarara,28.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,0.0,Female,NICU,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,75.0,Female,Medical,yes,no,No,Not Died
+Mbarara,38.0,Male,Medical,no,no,No,Not Died
+Mbarara,78.0,Female,Surgical,no,no,No,Not Died
+Mbarara,76.0,Female,Medical,no,yes,Yes,Not Died
+Mbarara,54.0,Male,Medical,no,no,No,Not Died
+Mbarara,27.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,18.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,23.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,64.0,Male,Medical,yes,yes,No,Died
+Mbarara,19.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,48.0,Female,Medical,yes,no,No,Not Died
+Mbarara,50.0,Male,Surgical,no,no,No,Not Died
+Mbarara,32.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,yes,No,Died
+Mbarara,74.0,Male,Medical,yes,no,No,Not Died
+Mbarara,73.0,Female,Medical,yes,no,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,yes,No,Not Died
+Mbarara,65.0,Female,Medical,yes,no,No,Not Died
+Mbarara,41.0,Female,Medical,yes,no,No,Not Died
+Mbarara,24.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,46.0,Female,Medical,yes,no,No,Not Died
+Mbarara,31.0,Male,Medical,no,no,No,Not Died
+Mbarara,36.0,Male,Medical,yes,no,No,Not Died
+Mbarara,73.0,Female,ICU/HDU,yes,no,Yes,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,Yes,Not Died
+Mbarara,28.0,Male,Medical,no,no,No,Not Died
+Mbarara,70.0,Male,Medical,no,no,No,Not Died
+Mbarara,29.0,Female,Medical,yes,no,No,Not Died
+Mbarara,0.0,Male,Medical,no,no,No,Not Died
+Mbarara,27.0,Male,Medical,no,no,No,Not Died
+Mbarara,35.0,Male,Medical,no,no,No,Not Died
+Mbarara,30.0,Male,Medical,yes,no,No,Not Died
+Mbarara,18.0,Male,Medical,yes,no,No,Not Died
+Mbarara,53.0,Female,Medical,yes,no,No,Not Died
+Mbarara,95.0,Female,Medical,no,no,No,Not Died
+Mbarara,54.0,Male,Medical,yes,no,No,Died
+Mbarara,30.0,Female,Medical,no,no,No,Not Died
+Mbarara,45.0,Female,Medical,yes,no,No,Not Died
+Mbarara,84.0,Female,Medical,yes,no,No,Not Died
+Mbarara,30.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,36.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,20.0,Male,Medical,no,yes,No,Died
+Mbarara,40.0,Male,Medical,no,yes,No,Died
+Mbarara,20.0,Female,Medical,no,yes,No,Not Died
+Mbarara,59.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,2.0,Female,Medical,no,yes,No,Not Died
+Mbarara,32.0,Female,Medical,yes,yes,Yes,Not Died
+Mbarara,24.0,Female,Medical,yes,no,No,Not Died
+Mbarara,41.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,55.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,63.0,Female,Medical,no,yes,No,Not Died
+Mbarara,73.0,Female,ICU/HDU,yes,yes,No,Died
+Mbarara,49.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,86.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,36.0,Male,Medical,yes,yes,No,Died
+Mbarara,58.0,Female,Surgical,yes,no,No,Not Died
+Mbarara,43.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,27.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,38.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,48.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,22.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,31.0,Male,Medical,no,yes,No,Not Died
+Mbarara,30.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,73.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,10.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,24.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,60.0,Female,Medical,no,no,No,Not Died
+Mbarara,31.0,Female,Medical,yes,no,No,Not Died
+Mbarara,45.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,64.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,29.0,Female,Medical,yes,no,No,Not Died
+Mbarara,70.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,56.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,48.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,84.0,Female,Medical,no,yes,No,Not Died
+Mbarara,50.0,Female,Medical,no,yes,No,Not Died
+Mbarara,28.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,5.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,29.0,Female,ICU/HDU,no,yes,No,Not Died
+Mbarara,72.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,44.0,Male,Medical,no,yes,No,Not Died
+Mbarara,22.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,0.0,Male,NICU,no,yes,Yes,Not Died
+Mbarara,29.0,Female,Medical,no,yes,No,Not Died
+Mbarara,41.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,75.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,30.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,24.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,21.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,1.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,65.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,51.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,47.0,Female,Surgical,yes,yes,Yes,Not Died
+Mbarara,5.0,Female,Pediatric,no,yes,No,Not Died
+Mbarara,87.0,Female,Medical,no,no,Yes,Not Died
+Mbarara,100.0,Female,Medical,no,no,No,Not Died
+Mbarara,36.0,Male,Medical,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,yes,yes,Yes,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,2.0,Female,Pediatric,yes,no,No,Not Died
+Mbarara,8.0,Male,ICU/HDU,yes,no,No,Not Died
+Mbarara,7.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,1.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,10.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,Yes,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,2.0,Male,Pediatric,no,no,Yes,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,2.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,Yes,Not Died
+Mbarara,10.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,13.0,Male,Medical,no,no,No,Not Died
+Mbarara,0.0,Female,Pediatric,yes,no,No,Not Died
+Mbarara,0.0,Female,NICU,no,no,No,Not Died
+Mbarara,1.0,Male,ICU/HDU,no,no,No,Not Died
+Mbarara,1.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,0.0,Female,NICU,no,yes,No,Not Died
+Mbarara,0.0,Female,NICU,no,no,No,Not Died
+Mbarara,13.0,Female,Pediatric,yes,yes,No,Not Died
+Mbarara,13.0,Female,Pediatric,yes,no,No,Not Died
+Mbarara,1.0,Female,Pediatric,yes,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,yes,no,No,Not Died
+Mbarara,1.0,Female,Pediatric,yes,yes,No,Not Died
+Mbarara,7.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,25.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,18.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,32.0,Female,Maternity,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,1.0,Male,Pediatric,yes,yes,No,Died
+Mbarara,66.0,Female,Medical,yes,yes,Yes,Died
+Mbarara,66.0,Male,Medical,yes,yes,No,Died
+Mbarara,13.0,Female,Pediatric,no,yes,No,Not Died
+Mbarara,2.0,Male,Pediatric,yes,no,No,Not Died
+Mbarara,1.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,19.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,0.0,Male,NICU,yes,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,2.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,18.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,1.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,50.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,62.0,Female,Medical,yes,no,No,Not Died
+Mbarara,0.0,Male,NICU,no,yes,No,Died
+Mbarara,0.0,Male,Pediatric,yes,yes,No,Not Died
+Mbarara,55.0,Female,Medical,no,yes,No,Not Died
+Mbarara,28.0,Male,ICU/HDU,no,yes,No,Died
+Mbarara,73.0,Male,Medical,yes,yes,Yes,Not Died
+Mbarara,19.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,19.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,43.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,82.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,25.0,Female,Medical,no,yes,No,Not Died
+Mbarara,27.0,Male,Medical,no,yes,No,Not Died
+Mbarara,44.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,82.0,Male,Medical,yes,yes,No,Died
+Mbarara,58.0,Male,Medical,yes,no,No,Not Died
+Mbarara,19.0,Female,Maternity,no,yes,No,Not Died
+Mbarara,18.0,Male,Medical,yes,no,No,Not Died
+Mbarara,42.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,76.0,Male,Medical,yes,no,No,Not Died
+Mbarara,35.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,39.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,25.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,67.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,77.0,Male,Medical,no,yes,No,Died
+Mbarara,21.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,21.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,24.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,yes,yes,No,Not Died
+Mbarara,0.0,Male,Pediatric,yes,yes,Yes,Not Died
+Mbarara,35.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,25.0,Male,Medical,no,yes,No,Not Died
+Mbarara,83.0,Male,Medical,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,22.0,Female,Medical,yes,no,No,Not Died
+Mbarara,20.0,Male,Medical,yes,no,No,Not Died
+Mbarara,0.0,Female,ICU/HDU,yes,no,No,Not Died
+Mbarara,31.0,Female,Gynecology,yes,yes,No,Not Died
+Mbarara,35.0,Male,Medical,yes,no,No,Died
+Mbarara,25.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,36.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,33.0,Female,Medical,yes,no,No,Died
+Mbarara,85.0,Male,Surgical,no,no,No,Not Died
+Mbarara,39.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,35.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,45.0,Male,Medical,no,yes,No,Not Died
+Mbarara,35.0,Female,Medical,no,yes,No,Not Died
+Mbarara,40.0,Female,Medical,no,yes,No,Not Died
+Mbarara,46.0,Female,Medical,no,yes,No,Died
+Mbarara,76.0,Female,Surgical,yes,no,No,Not Died
+Mbarara,32.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,32.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,76.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,38.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,18.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,20.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,20.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,20.0,Male,ICU/HDU,no,yes,No,Not Died
+Mbarara,33.0,Female,Medical,no,yes,No,Not Died
+Mbarara,30.0,Female,Medical,no,yes,No,Not Died
+Mbarara,49.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,32.0,Female,Medical,no,yes,No,Not Died
+Mbarara,80.0,Female,ICU/HDU,yes,yes,No,Not Died
+Mbarara,25.0,Female,Maternity,no,no,No,Not Died
+Mbarara,0.0,Female,NICU,no,no,No,Not Died
+Mbarara,10.0,Male,NICU,no,yes,No,Not Died
+Mbarara,34.0,Female,Medical,no,yes,No,Not Died
+Mbarara,70.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,70.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,64.0,Male,Medical,no,no,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,75.0,Female,Medical,no,yes,No,Not Died
+Mbarara,87.0,Female,Medical,no,yes,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Died
+Mbarara,32.0,Female,Medical,no,yes,No,Not Died
+Mbarara,25.0,Female,Medical,no,yes,No,Not Died
+Mbarara,62.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,33.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,30.0,Female,Medical,no,yes,No,Not Died
+Mbarara,40.0,Male,Medical,no,yes,No,Not Died
+Mbarara,16.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,26.0,Male,Surgical,yes,no,No,Not Died
+Mbarara,0.0,Female,Surgical,no,no,No,Not Died
+Mbarara,80.0,Female,ICU/HDU,yes,no,No,Not Died
+Mbarara,80.0,Female,ICU/HDU,yes,yes,No,Not Died
+Mbarara,80.0,Female,ICU/HDU,yes,yes,No,Not Died
+Mbarara,45.0,Male,Medical,yes,no,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,7.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,87.0,Male,Medical,no,no,No,Not Died
+Mbarara,87.0,Male,Medical,no,no,No,Not Died
+Mbarara,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,2.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,9.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,58.0,Male,Medical,yes,no,No,Not Died
+Mbarara,16.0,Female,Maternity,no,no,No,Not Died
+Mbarara,16.0,Male,Medical,yes,no,No,Not Died
+Mbarara,5.0,Male,Pediatric,no,no,Yes,Not Died
+Mbarara,23.0,Male,Medical,no,no,No,Not Died
+Mbarara,87.0,Female,Medical,yes,no,No,Not Died
+Mbarara,5.0,Female,Pediatric,no,no,Yes,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,82.0,Male,Medical,yes,no,No,Died
+Mbarara,0.0,Male,ICU/HDU,no,no,No,Not Died
+Mbarara,27.0,Male,Medical,yes,no,No,Not Died
+Mbarara,10.0,Female,ICU/HDU,no,no,No,Not Died
+Mbarara,58.0,Female,Medical,no,no,No,Not Died
+Mbarara,35.0,Male,Medical,yes,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,26.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,36.0,Male,Orthopedic,no,yes,No,Not Died
+Mbarara,33.0,Female,Medical,yes,yes,No,Not Died
+Mbarara,30.0,Male,ICU/HDU,no,no,No,Not Died
+Mbarara,49.0,Female,Medical,yes,yes,Yes,Not Died
+Mbarara,53.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,39.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,52.0,Male,Medical,yes,yes,No,Not Died
+Mbarara,26.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,22.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,23.0,Female,Maternity,no,yes,No,Not Died
+Mbarara,24.0,Female,Maternity,no,yes,No,Not Died
+Mbarara,20.0,Female,Maternity,no,yes,No,Not Died
+Mbarara,60.0,Male,Medical,no,yes,No,Not Died
+Mbarara,22.0,Male,ICU/HDU,no,yes,No,Died
+Mbarara,8.0,Female,Pediatric,no,yes,No,Not Died
+Mbarara,58.0,Male,Medical,no,no,No,Not Died
+Mbarara,58.0,Male,Medical,no,no,No,Not Died
+Mbarara,20.0,Male,Medical,no,no,No,Not Died
+Mbarara,35.0,Male,Medical,no,no,No,Not Died
+Mbarara,35.0,Female,Medical,yes,no,No,Not Died
+Mbarara,29.0,Female,Medical,yes,no,No,Not Died
+Mbarara,63.0,Male,Medical,yes,no,No,Not Died
+Soroti,64.0,Male,Surgical,yes,yes,No,Not Died
+Soroti,18.0,Female,Maternity,no,yes,No,Not Died
+Soroti,24.0,Male,Surgical,no,yes,Yes,Not Died
+Soroti,36.0,Male,Medical,no,no,No,Not Died
+Soroti,34.0,Male,Surgical,yes,no,No,Not Died
+Soroti,16.0,Female,Maternity,no,yes,No,Not Died
+Soroti,19.0,Male,Surgical,no,no,No,Not Died
+Soroti,1.0,Male,Surgical,no,yes,No,Not Died
+Soroti,10.0,Male,Surgical,no,yes,No,Not Died
+Soroti,16.0,Female,Maternity,no,no,No,Not Died
+Soroti,5.0,Male,Surgical,no,yes,No,Not Died
+Soroti,47.0,Male,Surgical,no,yes,No,Not Died
+Soroti,63.0,Female,Medical,yes,no,No,Not Died
+Soroti,13.0,Female,Medical,no,no,No,Not Died
+Soroti,22.0,Male,Medical,no,no,No,Not Died
+Soroti,18.0,Female,Medical,yes,no,No,Not Died
+Soroti,35.0,Female,Medical,yes,no,No,Not Died
+Soroti,43.0,Female,Medical,yes,no,No,Not Died
+Lira,65.0,Male,Medical,yes,no,No,Not Died
+Soroti,52.0,Female,Medical,no,no,No,Not Died
+Soroti,6.0,Male,Pediatric,no,no,No,Not Died
+Soroti,52.0,Female,Medical,no,no,No,Not Died
+Soroti,1.0,Male,Pediatric,yes,no,No,Not Died
+Soroti,7.0,Male,Pediatric,no,no,No,Not Died
+Soroti,22.0,Male,Medical,no,no,Yes,Not Died
+Soroti,50.0,Male,Medical,no,no,No,Not Died
+Soroti,34.0,Male,Medical,no,yes,No,Not Died
+Soroti,30.0,Female,Surgical,no,no,No,Not Died
+Soroti,65.0,Male,Medical,no,yes,No,Not Died
+Soroti,20.0,Male,Medical,no,no,No,Died
+Soroti,20.0,Male,Medical,no,no,No,Died
+Soroti,24.0,Female,Medical,yes,no,No,Died
+Soroti,24.0,Female,Medical,yes,no,No,Died
+Soroti,45.0,Female,Medical,no,no,No,Died
+Lira,50.0,Female,Medical,yes,no,No,Died
+Arua,40.0,Male,Medical,yes,no,Yes,Not Died
+Kabale,90.0,Male,Medical,no,yes,No,Died
+Masaka,88.0,Male,ICU/HDU,no,no,Yes,Died
+Mbale,80.0,Female,Medical,yes,no,No,Died
+Mbale,78.0,Female,Surgical,yes,yes,No,Died
+Jinja,75.0,Female,Medical,yes,no,Yes,Died
+Jinja,75.0,Male,Medical,yes,no,No,Died
+Gulu,73.0,Male,Medical,yes,no,No,Died
+Lira,73.0,Female,Medical,yes,no,No,Died
+Lira,72.0,Female,Surgical,yes,yes,Yes,Died
+Lira,70.0,Female,Medical,no,no,No,Died
+Kabale,70.0,Female,Medical,yes,yes,No,Died
+Jinja,65.0,Female,Medical,yes,yes,No,Died
+Mbarara,57.0,Female,Surgical,no,yes,No,Died
+Jinja,54.0,Male,Surgical,yes,no,No,Died
+Mbarara,54.0,Male,Medical,yes,no,No,Died
+Lira,53.0,Female,Surgical,no,yes,No,Died
+Masaka,53.0,Female,Medical,yes,no,No,Died
+Kabale,52.0,Male,Surgical,no,yes,No,Died
+Lira,52.0,Female,Surgical,no,yes,No,Died
+Lira,52.0,Female,Medical,yes,yes,No,Died
+Arua,51.0,Male,Surgical,no,yes,No,Died
+Arua,50.0,Female,Surgical,no,yes,No,Died
+Jinja,50.0,Female,Surgical,yes,yes,No,Died
+Mbale,50.0,Female,Surgical,yes,no,No,Died
+Jinja,49.0,Male,Surgical,yes,no,No,Died
+Lira,48.0,Female,Surgical,no,yes,No,Died
+Lira,45.0,Female,Medical,yes,no,No,Died
+Lira,45.0,Female,Medical,yes,no,Yes,Died
+Mbarara,44.0,Male,ICU/HDU,no,yes,No,Died
+Mbarara,44.0,Male,ICU/HDU,no,no,No,Died
+Gulu,42.0,Male,Medical,yes,no,Yes,Died
+Gulu,40.0,Male,Medical,no,no,No,Died
+Lira,40.0,Male,Medical,yes,no,No,Died
+Jinja,38.0,Female,Surgical,no,no,No,Died
+Lira,38.0,Male,Medical,yes,yes,No,Died
+Jinja,35.0,Female,Maternity,no,no,No,Died
+Jinja,35.0,Female,Medical,yes,no,No,Died
+Lira,35.0,Female,Medical,yes,no,No,Died
+Lira,35.0,Male,Medical,yes,no,No,Died
+Arua,34.0,Male,Surgical,no,yes,No,Died
+Lira,32.0,Male,Medical,yes,no,No,Died
+Mbarara,30.0,Female,Gynecology,no,yes,No,Died
+Mbale,30.0,Male,Surgical,no,yes,No,Died
+Lira,30.0,Female,Medical,yes,no,No,Died
+Lira,30.0,Female,Medical,yes,no,No,Died
+Lira,30.0,Female,Medical,no,yes,No,Died
+Lira,30.0,Female,Medical,no,no,No,Died
+Lira,29.0,Female,Medical,yes,no,Yes,Died
+Arua,28.0,Male,Medical,yes,no,No,Died
+Masaka,28.0,Female,Maternity,yes,no,No,Died
+Jinja,27.0,Male,Medical,yes,no,No,Died
+Soroti,27.0,Female,Surgical,no,yes,No,Died
+Lira,24.0,Male,Medical,yes,no,No,Died
+Gulu,24.0,Female,Medical,yes,no,No,Died
+Jinja,24.0,Male,Medical,no,no,No,Died
+Soroti,22.0,Female,Surgical,no,yes,Yes,Died
+Lira,21.0,Male,Medical,yes,no,No,Died
+Lira,19.0,Male,Medical,no,no,Yes,Died
+Mbale,19.0,Male,ICU/HDU,no,yes,No,Died
+Jinja,18.0,Male,Medical,no,no,No,Died
+Arua,16.0,Male,Surgical,no,no,No,Died
+Jinja,14.0,Female,Medical,no,no,No,Died
+Lira,14.0,Female,Medical,yes,no,No,Died
+Kabale,14.0,Female,Pediatric,no,no,Yes,Died
+Lira,14.0,Female,Medical,no,no,No,Died
+Gulu,13.0,Male,Medical,no,no,Yes,Died
+Lira,10.0,Female,Pediatric,no,no,Yes,Died
+Kabale,8.0,Female,Pediatric,yes,no,No,Died
+Jinja,7.0,Male,Pediatric,no,no,No,Died
+Kabale,6.0,Female,Pediatric,no,no,No,Died
+Kabale,6.0,Female,Pediatric,no,no,No,Died
+Lira,4.0,Female,Pediatric,no,yes,No,Died
+Kabale,2.0,Male,Pediatric,no,no,No,Died
+Jinja,1.0,Male,Pediatric,no,no,No,Died
+Kabale,0.0,Female,Pediatric,no,yes,No,Died
+Kabale,0.0,Female,Pediatric,no,yes,No,Died
+Masaka,0.0,Female,NICU,no,no,No,Died
+Masaka,0.0,Male,NICU,no,no,No,Died
+Lira,0.0,Female,Pediatric,no,yes,Yes,Died
+Masaka,0.0,Male,NICU,no,yes,No,Died
+Masaka,0.0,Female,ICU/HDU,no,yes,No,Died
+Masaka,0.0,Male,ICU/HDU,no,yes,No,Died
+Masaka,0.0,Female,NICU,no,yes,No,Died
+Masaka,0.0,Male,NICU,no,no,No,Died
+Masaka,0.0,Female,NICU,no,no,No,Died
+Masaka,0.0,Male,ICU/HDU,yes,yes,No,Died
+Masaka,0.0,Female,NICU,no,yes,No,Died
+Kabale,95.0,Female,Medical,no,yes,Yes,Not Died
+Mbarara,95.0,Female,Medical,yes,yes,Yes,Not Died
+Mbarara,95.0,Female,Medical,yes,yes,Yes,Not Died
+Masaka,91.0,Male,Medical,no,no,No,Not Died
+Lira,82.0,Female,Surgical,no,yes,No,Not Died
+Lira,80.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,80.0,Male,Medical,no,yes,No,Not Died
+Lira,80.0,Female,Surgical,yes,yes,No,Not Died
+Jinja,80.0,Male,Medical,no,no,No,Not Died
+Kabale,79.0,Male,Medical,no,yes,No,Not Died
+Jinja,79.0,Male,Medical,no,no,No,Not Died
+Mbarara,79.0,Male,Surgical,no,yes,No,Not Died
+Soroti,78.0,Male,Medical,no,no,No,Not Died
+Mbarara,78.0,Female,Medical,no,no,No,Not Died
+Jinja,78.0,Female,Medical,yes,no,No,Not Died
+Kabale,74.0,Male,Surgical,no,yes,No,Not Died
+Lira,74.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,73.0,Male,Medical,no,yes,No,Not Died
+Arua,71.0,Male,Medical,yes,no,No,Not Died
+Kabale,70.0,Male,Medical,no,yes,No,Not Died
+Gulu,69.0,Male,Medical,yes,no,Yes,Not Died
+Kabale,68.0,Female,Medical,yes,no,No,Not Died
+Masaka,67.0,Male,Surgical,yes,no,No,Not Died
+Arua,66.0,Male,Surgical,no,yes,No,Not Died
+Kabale,66.0,Female,Medical,yes,no,No,Not Died
+Arua,65.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,65.0,Female,Surgical,no,yes,No,Not Died
+Mbale,64.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,63.0,Male,Surgical,no,yes,No,Not Died
+Mbale,63.0,Male,Surgical,no,yes,No,Not Died
+Kabale,63.0,Male,Medical,yes,yes,No,Not Died
+Arua,63.0,Female,Surgical,yes,no,No,Not Died
+Mbarara,63.0,Male,Surgical,yes,yes,Yes,Not Died
+Soroti,63.0,Female,Medical,yes,no,No,Not Died
+Masaka,63.0,Male,Surgical,no,yes,No,Not Died
+Kabale,62.0,Male,Surgical,no,yes,No,Not Died
+Masaka,60.0,Female,Medical,no,no,No,Not Died
+Jinja,60.0,Male,Surgical,no,yes,No,Not Died
+Kabale,60.0,Female,Surgical,no,yes,No,Not Died
+Kabale,60.0,Female,Surgical,no,no,No,Not Died
+Gulu,60.0,Male,Medical,no,yes,No,Not Died
+Mbarara,59.0,Male,Surgical,no,yes,No,Not Died
+Masaka,59.0,Male,Medical,yes,no,No,Not Died
+Mbale,57.0,Female,Medical,yes,no,No,Not Died
+Mbarara,57.0,Female,Surgical,no,yes,Yes,Not Died
+Mbarara,56.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,55.0,Male,Medical,yes,no,Yes,Not Died
+Mbarara,55.0,Male,Medical,yes,no,Yes,Not Died
+Jinja,55.0,Male,Medical,yes,no,No,Not Died
+Kabale,54.0,Female,Surgical,no,yes,No,Not Died
+Lira,54.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,54.0,Female,Surgical,no,yes,No,Not Died
+Kabale,54.0,Female,Medical,no,no,No,Not Died
+Masaka,53.0,Female,Maternity,no,no,No,Not Died
+Mbarara,53.0,Male,Surgical,yes,yes,No,Not Died
+Lira,50.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,50.0,Female,Surgical,no,yes,No,Not Died
+Masaka,48.0,Female,Surgical,yes,no,No,Not Died
+Mbarara,48.0,Male,Medical,yes,yes,No,Not Died
+Lira,48.0,Female,Gynecology,yes,yes,No,Not Died
+Mbarara,48.0,Male,Surgical,yes,yes,No,Not Died
+Lira,47.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,47.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,46.0,Male,Medical,yes,no,No,Not Died
+Masaka,45.0,Female,Surgical,yes,yes,No,Not Died
+Masaka,45.0,Male,Surgical,yes,yes,No,Not Died
+Lira,44.0,Male,Surgical,no,yes,No,Not Died
+Kabale,43.0,Female,Medical,yes,yes,No,Not Died
+Gulu,42.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,42.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,42.0,Female,Medical,yes,yes,Yes,Not Died
+Jinja,41.0,Male,Medical,no,no,No,Not Died
+Jinja,41.0,Female,Medical,yes,no,Yes,Not Died
+Masaka,40.0,Female,Medical,no,no,Yes,Not Died
+Gulu,40.0,Female,Gynecology,no,yes,No,Not Died
+Gulu,40.0,Female,Maternity,no,no,No,Not Died
+Gulu,40.0,Female,Surgical,no,no,No,Not Died
+Soroti,40.0,Female,Medical,no,no,No,Not Died
+Mbarara,40.0,Female,Surgical,yes,no,No,Not Died
+Kabale,40.0,Male,Medical,no,no,No,Not Died
+Kabale,39.0,Female,Gynecology,no,yes,No,Not Died
+Arua,39.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,39.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,39.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,38.0,Female,Surgical,no,yes,No,Not Died
+Arua,38.0,Female,Surgical,no,yes,No,Not Died
+Jinja,38.0,Male,Medical,no,no,No,Not Died
+Kabale,38.0,Male,Surgical,no,no,No,Not Died
+Gulu,38.0,Male,Surgical,no,yes,No,Not Died
+Gulu,38.0,Male,Surgical,no,no,No,Not Died
+Jinja,38.0,Female,Surgical,no,yes,No,Not Died
+Lira,38.0,Male,Surgical,no,no,No,Not Died
+Mbarara,38.0,Female,Medical,no,yes,No,Not Died
+Lira,37.0,Female,Surgical,no,yes,No,Not Died
+Lira,37.0,Female,Medical,yes,no,No,Not Died
+Masaka,36.0,Male,Surgical,no,yes,No,Not Died
+Mbale,35.0,Male,Surgical,no,no,No,Not Died
+Kabale,35.0,Male,Medical,no,yes,No,Not Died
+Kabale,35.0,Male,Medical,no,no,No,Not Died
+Mbarara,34.0,Male,Surgical,no,no,No,Not Died
+Mbarara,33.0,Female,Medical,no,yes,No,Not Died
+Mbarara,33.0,Female,ICU/HDU,no,no,No,Not Died
+Mbarara,33.0,Female,ICU/HDU,no,no,No,Not Died
+Mbarara,33.0,Female,ICU/HDU,no,no,No,Not Died
+Mbarara,33.0,Female,ICU/HDU,no,no,No,Not Died
+Lira,33.0,Female,Surgical,yes,yes,No,Not Died
+Lira,33.0,Female,Surgical,yes,yes,No,Not Died
+Mbale,33.0,Female,Maternity,no,yes,No,Not Died
+Mbale,33.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,33.0,Male,Surgical,no,yes,No,Not Died
+Arua,33.0,Female,Surgical,no,yes,No,Not Died
+Soroti,32.0,Male,Surgical,no,no,No,Not Died
+Kabale,32.0,Male,Medical,no,no,Yes,Not Died
+Masaka,32.0,Female,Medical,no,no,No,Not Died
+Gulu,32.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,32.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,32.0,Male,Surgical,yes,yes,No,Not Died
+Masaka,32.0,Male,Surgical,no,yes,No,Not Died
+Gulu,31.0,Male,Surgical,no,yes,No,Not Died
+Lira,31.0,Male,Surgical,yes,yes,No,Not Died
+Arua,30.0,Female,Orthopedic,no,yes,No,Not Died
+Kabale,30.0,Male,Surgical,no,no,Yes,Not Died
+Arua,30.0,Male,Surgical,no,yes,Yes,Not Died
+Jinja,30.0,Male,Surgical,no,yes,No,Not Died
+Kabale,30.0,Male,Surgical,no,yes,No,Not Died
+Jinja,30.0,Male,Surgical,no,no,No,Not Died
+Gulu,29.0,Female,Maternity,no,yes,No,Not Died
+Masaka,29.0,Female,Surgical,no,no,No,Not Died
+Lira,29.0,Male,Surgical,no,no,No,Not Died
+Lira,28.0,Male,Surgical,no,yes,No,Not Died
+Jinja,28.0,Male,Medical,yes,no,No,Not Died
+Soroti,28.0,Female,Maternity,no,yes,No,Not Died
+Jinja,27.0,Female,Gynecology,no,yes,No,Not Died
+Soroti,27.0,Female,Maternity,no,yes,Yes,Not Died
+Jinja,27.0,Male,Surgical,no,yes,No,Not Died
+Mbale,27.0,Female,Maternity,yes,yes,No,Not Died
+Arua,26.0,Male,Surgical,no,no,No,Not Died
+Mbarara,26.0,Male,Surgical,no,yes,No,Not Died
+Gulu,25.0,Male,Surgical,no,yes,No,Not Died
+Jinja,25.0,Male,Medical,no,no,Yes,Not Died
+Jinja,25.0,Female,Gynecology,no,yes,No,Not Died
+Arua,25.0,Male,Surgical,no,no,No,Not Died
+Soroti,25.0,Female,Maternity,yes,yes,Yes,Not Died
+Mbale,24.0,Male,Surgical,no,yes,No,Not Died
+Lira,24.0,Male,Surgical,no,no,No,Not Died
+Kabale,24.0,Male,Surgical,no,yes,Yes,Not Died
+Arua,24.0,Male,Surgical,no,yes,No,Not Died
+Lira,24.0,Male,Surgical,no,yes,No,Not Died
+Masaka,24.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,23.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,23.0,Female,Surgical,no,yes,Yes,Not Died
+Soroti,23.0,Female,Maternity,no,no,No,Not Died
+Lira,23.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,23.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,23.0,Female,Maternity,yes,no,No,Not Died
+Soroti,23.0,Female,Maternity,no,no,No,Not Died
+Kabale,22.0,Female,Medical,no,no,No,Not Died
+Lira,22.0,Male,Surgical,no,no,No,Not Died
+Masaka,22.0,Female,Surgical,no,yes,No,Not Died
+Mbale,22.0,Female,Maternity,no,no,No,Not Died
+Mbale,22.0,Female,Maternity,no,no,No,Not Died
+Mbale,22.0,Male,Surgical,no,yes,No,Not Died
+Mbale,22.0,Female,Surgical,no,yes,No,Not Died
+Arua,21.0,Male,Orthopedic,no,no,Yes,Not Died
+Masaka,21.0,Female,Medical,no,yes,No,Not Died
+Jinja,21.0,Female,Gynecology,no,no,Yes,Not Died
+Masaka,21.0,Male,Medical,yes,no,No,Not Died
+Soroti,21.0,Female,Gynecology,no,no,No,Not Died
+Gulu,21.0,Female,Medical,no,no,No,Not Died
+Soroti,20.0,Female,Maternity,no,yes,No,Not Died
+Soroti,20.0,Female,Maternity,yes,yes,No,Not Died
+Gulu,20.0,Female,Maternity,no,no,Yes,Not Died
+Gulu,20.0,Female,Maternity,no,yes,No,Not Died
+Jinja,20.0,Female,Gynecology,no,no,No,Not Died
+Jinja,20.0,Female,Medical,yes,no,Yes,Not Died
+Soroti,20.0,Female,Maternity,no,no,No,Not Died
+Masaka,19.0,Female,Medical,no,yes,No,Not Died
+Masaka,19.0,Female,Surgical,no,yes,No,Not Died
+Gulu,19.0,Male,Surgical,no,yes,No,Not Died
+Mbale,19.0,Male,Surgical,no,no,No,Not Died
+Kabale,19.0,Female,Maternity,no,yes,No,Not Died
+Soroti,18.0,Female,Maternity,no,yes,Yes,Not Died
+Gulu,18.0,Female,Gynecology,no,no,No,Not Died
+Arua,18.0,Female,Gynecology,no,no,No,Not Died
+Mbale,18.0,Male,Surgical,no,yes,Yes,Not Died
+Mbale,18.0,Female,Maternity,no,yes,No,Not Died
+Gulu,18.0,Male,Surgical,no,no,Yes,Not Died
+Jinja,17.0,Male,Pediatric,no,no,No,Not Died
+Gulu,17.0,Male,Medical,yes,no,No,Not Died
+Masaka,17.0,Female,Surgical,no,yes,No,Not Died
+Gulu,16.0,Male,Surgical,no,yes,No,Not Died
+Masaka,16.0,Female,ICU/HDU,no,no,No,Not Died
+Arua,15.0,Male,Medical,no,no,No,Not Died
+Kabale,14.0,Male,Surgical,no,yes,No,Not Died
+Lira,14.0,Male,Medical,no,no,No,Not Died
+Masaka,14.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,14.0,Female,ICU/HDU,yes,no,No,Not Died
+Mbale,14.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,12.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,12.0,Male,Pediatric,no,no,No,Not Died
+Kabale,10.0,Male,Surgical,no,yes,No,Not Died
+Kabale,10.0,Male,Surgical,no,yes,No,Not Died
+Soroti,10.0,Male,Pediatric,no,no,No,Not Died
+Jinja,9.0,Male,Pediatric,no,no,No,Not Died
+Kabale,9.0,Male,Pediatric,no,no,No,Not Died
+Masaka,9.0,Male,Surgical,no,no,No,Not Died
+Mbarara,9.0,Male,Surgical,no,yes,Yes,Not Died
+Masaka,8.0,Male,Pediatric,no,no,No,Not Died
+Lira,8.0,Female,Surgical,no,no,No,Not Died
+Kabale,6.0,Male,Pediatric,no,no,No,Not Died
+Jinja,5.0,Female,Pediatric,no,no,No,Not Died
+Arua,5.0,Female,Pediatric,no,no,Yes,Not Died
+Mbarara,5.0,Male,Surgical,no,yes,No,Not Died
+Kabale,4.0,Male,Surgical,no,yes,No,Not Died
+Kabale,4.0,Female,Surgical,no,no,No,Not Died
+Jinja,4.0,Male,Pediatric,no,no,No,Not Died
+Arua,4.0,Male,Pediatric,no,no,No,Not Died
+Jinja,3.0,Female,Pediatric,no,no,No,Not Died
+Kabale,3.0,Male,Pediatric,no,yes,No,Not Died
+Gulu,3.0,Male,Pediatric,no,no,No,Not Died
+Kabale,2.0,Male,Pediatric,no,yes,No,Not Died
+Soroti,2.0,Female,Pediatric,no,yes,No,Not Died
+Kabale,2.0,Male,Pediatric,no,no,No,Not Died
+Soroti,2.0,Female,Pediatric,no,no,No,Not Died
+Kabale,2.0,Male,Pediatric,no,yes,No,Not Died
+Kabale,2.0,Male,Surgical,no,yes,No,Not Died
+Arua,1.0,Male,Pediatric,no,no,Yes,Not Died
+Soroti,1.0,Male,Pediatric,yes,no,No,Not Died
+Kabale,1.0,Female,Pediatric,no,no,Yes,Not Died
+Masaka,1.0,Female,Pediatric,no,yes,No,Not Died
+Jinja,1.0,Male,Pediatric,no,no,No,Not Died
+Jinja,0.0,Female,Pediatric,no,no,Yes,Not Died
+Masaka,0.0,Female,Surgical,no,yes,No,Not Died
+Masaka,0.0,Female,ICU/HDU,no,yes,No,Not Died
+Masaka,0.0,Female,ICU/HDU,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Not Died
+Mbarara,0.0,Male,NICU,no,no,No,Not Died
+Mbarara,0.0,Male,NICU,no,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,yes,Yes,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,Yes,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Lira,0.0,Male,Surgical,no,yes,No,Not Died
+Masaka,0.0,Male,NICU,no,yes,No,Not Died
+Jinja,0.0,Male,Pediatric,no,no,Yes,Not Died
+Kabale,0.0,Female,Pediatric,no,no,No,Not Died
+Masaka,0.0,Male,ICU/HDU,no,yes,No,Not Died
+Kabale,0.0,Male,Pediatric,no,no,No,Not Died
+Masaka,0.0,Male,ICU/HDU,no,no,No,Not Died
+Masaka,0.0,Male,Pediatric,no,no,No,Not Died
+Kabale,0.0,Female,NICU,no,yes,Yes,Not Died
+Masaka,0.0,Male,ICU/HDU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Not Died
+Masaka,0.0,Female,NICU,no,no,No,Not Died
+Mbarara,0.0,Female,ICU/HDU,no,no,No,Not Died
+Masaka,0.0,Female,ICU/HDU,yes,no,Yes,Not Died
+Masaka,0.0,Female,NICU,no,yes,No,Not Died
+Mbarara,82.0,Female,Surgical,yes,yes,No,Not Died
+Mbale,79.0,Male,Medical,no,no,No,Not Died
+Kabale,77.0,Female,Medical,no,no,No,Not Died
+Mbale,75.0,Female,Medical,yes,no,No,Not Died
+Lira,75.0,Male,Surgical,yes,no,No,Not Died
+Mbarara,73.0,Female,Medical,no,no,No,Not Died
+Gulu,72.0,Male,Surgical,no,no,No,Not Died
+Lira,69.0,Male,Medical,no,no,No,Not Died
+Lira,69.0,Female,Gynecology,no,no,No,Not Died
+Soroti,68.0,Male,Surgical,yes,yes,No,Not Died
+Soroti,68.0,Male,Surgical,no,yes,No,Not Died
+Mbale,67.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,65.0,Female,Medical,yes,no,No,Not Died
+Lira,65.0,Male,Surgical,yes,no,No,Not Died
+Lira,64.0,Female,Surgical,yes,yes,No,Not Died
+Mbale,64.0,Male,Surgical,yes,yes,Yes,Not Died
+Mbale,60.0,Female,Maternity,no,no,Yes,Not Died
+Mbale,60.0,Male,Surgical,no,yes,No,Not Died
+Mbale,60.0,Male,Medical,yes,no,No,Not Died
+Lira,59.0,Male,Surgical,no,yes,No,Not Died
+Lira,59.0,Male,Surgical,yes,no,No,Not Died
+Lira,56.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,53.0,Female,ICU/HDU,yes,yes,No,Not Died
+Mbale,53.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,53.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,53.0,Male,Surgical,no,yes,No,Not Died
+Gulu,52.0,Female,Medical,yes,no,No,Not Died
+Lira,52.0,Male,Medical,yes,no,No,Not Died
+Mbarara,51.0,Female,Surgical,yes,yes,No,Not Died
+Mbarara,50.0,Female,Surgical,no,yes,No,Not Died
+Gulu,48.0,Female,Surgical,no,no,No,Not Died
+Lira,48.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,48.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,48.0,Female,Medical,yes,no,Yes,Not Died
+Masaka,47.0,Male,Surgical,no,no,No,Not Died
+Mbale,46.0,Male,Surgical,no,yes,No,Not Died
+Masaka,45.0,Male,Medical,no,no,No,Not Died
+Masaka,45.0,Female,Surgical,yes,yes,No,Not Died
+Lira,45.0,Female,Gynecology,yes,yes,No,Not Died
+Lira,44.0,Female,Surgical,no,no,No,Not Died
+Arua,44.0,Female,Gynecology,yes,no,Yes,Not Died
+Jinja,43.0,Male,Medical,no,no,No,Not Died
+Lira,43.0,Female,Surgical,yes,yes,No,Not Died
+Masaka,42.0,Female,Surgical,no,no,No,Not Died
+Mbale,42.0,Male,ICU/HDU,no,yes,No,Not Died
+Lira,42.0,Male,Medical,yes,no,No,Not Died
+Masaka,41.0,Male,Surgical,no,no,No,Not Died
+Mbarara,40.0,Male,ICU/HDU,no,yes,No,Not Died
+Masaka,39.0,Female,Surgical,no,yes,No,Not Died
+Lira,39.0,Male,Surgical,no,yes,No,Not Died
+Mbale,39.0,Male,Surgical,no,yes,No,Not Died
+Soroti,39.0,Female,Maternity,no,no,No,Not Died
+Lira,38.0,Female,Medical,yes,no,No,Not Died
+Masaka,37.0,Female,Medical,yes,yes,No,Not Died
+Lira,36.0,Male,Medical,no,no,No,Not Died
+Masaka,36.0,Male,Surgical,no,yes,No,Not Died
+Lira,36.0,Female,Surgical,yes,yes,No,Not Died
+Gulu,36.0,Male,Maternity,no,yes,No,Not Died
+Jinja,35.0,Female,Maternity,no,no,No,Not Died
+Gulu,35.0,Male,Surgical,no,no,No,Not Died
+Lira,33.0,Male,Surgical,no,yes,Yes,Not Died
+Lira,33.0,Female,Medical,yes,yes,No,Not Died
+Lira,33.0,Female,Medical,yes,no,No,Not Died
+Mbarara,33.0,Male,Surgical,no,yes,Yes,Not Died
+Gulu,32.0,Male,Surgical,no,yes,No,Not Died
+Jinja,32.0,Male,Medical,no,yes,No,Not Died
+Soroti,32.0,Female,Maternity,no,yes,No,Not Died
+Jinja,32.0,Female,Gynecology,no,no,No,Not Died
+Lira,32.0,Female,Surgical,yes,yes,No,Not Died
+Arua,31.0,Male,Surgical,no,yes,No,Not Died
+Jinja,31.0,Female,Gynecology,no,no,No,Not Died
+Mbale,30.0,Male,Surgical,no,yes,No,Not Died
+Gulu,30.0,Female,Surgical,no,no,No,Not Died
+Mbarara,30.0,Male,Surgical,no,yes,No,Not Died
+Jinja,30.0,Female,Gynecology,no,yes,No,Not Died
+Mbarara,30.0,Male,Medical,no,no,Yes,Not Died
+Arua,29.0,Female,Gynecology,no,no,No,Not Died
+Arua,29.0,Male,Surgical,yes,yes,No,Not Died
+Lira,28.0,Female,Medical,no,no,No,Not Died
+Masaka,28.0,Female,Maternity,no,no,No,Not Died
+Gulu,28.0,Female,Maternity,no,yes,No,Not Died
+Gulu,28.0,Female,Maternity,no,no,No,Not Died
+Jinja,28.0,Male,Medical,no,no,No,Not Died
+Soroti,28.0,Female,Maternity,no,no,Yes,Not Died
+Lira,28.0,Male,Surgical,yes,yes,No,Not Died
+Jinja,27.0,Female,Maternity,no,yes,No,Not Died
+Lira,27.0,Male,Surgical,no,no,No,Not Died
+Jinja,27.0,Female,Gynecology,no,no,No,Not Died
+Jinja,26.0,Female,Maternity,no,yes,No,Not Died
+Jinja,26.0,Female,Gynecology,no,no,No,Not Died
+Mbarara,26.0,Female,Surgical,yes,yes,No,Not Died
+Masaka,26.0,Female,Medical,yes,no,No,Not Died
+Arua,25.0,Female,Maternity,no,no,No,Not Died
+Jinja,25.0,Female,Gynecology,no,no,No,Not Died
+Jinja,25.0,Female,Gynecology,no,no,No,Not Died
+Gulu,25.0,Male,Medical,yes,no,No,Not Died
+Arua,25.0,Female,Surgical,no,no,No,Not Died
+Mbarara,24.0,Male,Surgical,no,yes,No,Not Died
+Jinja,24.0,Female,Gynecology,no,no,No,Not Died
+Gulu,24.0,Female,Gynecology,no,yes,No,Not Died
+Masaka,24.0,Female,Maternity,no,no,No,Not Died
+Soroti,24.0,Female,Maternity,no,no,No,Not Died
+Arua,23.0,Female,Maternity,no,no,No,Not Died
+Soroti,23.0,Female,Maternity,no,no,No,Not Died
+Gulu,22.0,Female,Maternity,no,yes,No,Not Died
+Gulu,22.0,Female,Maternity,no,no,No,Not Died
+Kabale,22.0,Male,Medical,no,no,No,Not Died
+Jinja,21.0,Female,Gynecology,no,yes,No,Not Died
+Arua,21.0,Female,Maternity,no,yes,No,Not Died
+Gulu,21.0,Female,Maternity,no,yes,No,Not Died
+Soroti,21.0,Female,Maternity,no,yes,No,Not Died
+Arua,20.0,Male,Orthopedic,no,yes,No,Not Died
+Jinja,19.0,Female,Maternity,no,yes,No,Not Died
+Arua,19.0,Female,Gynecology,no,no,Yes,Not Died
+Gulu,19.0,Female,Maternity,no,no,No,Not Died
+Gulu,19.0,Female,Gynecology,no,yes,No,Not Died
+Kabale,19.0,Female,Medical,yes,no,No,Not Died
+Lira,18.0,Female,Surgical,no,yes,No,Not Died
+Gulu,18.0,Male,Surgical,no,yes,No,Not Died
+Arua,18.0,Female,Medical,no,no,No,Not Died
+Mbale,18.0,Female,Maternity,no,yes,No,Not Died
+Lira,18.0,Female,Gynecology,no,yes,No,Not Died
+Arua,18.0,Male,Surgical,no,yes,No,Not Died
+Mbale,18.0,Male,Surgical,no,yes,No,Not Died
+Soroti,18.0,Female,Maternity,no,yes,No,Not Died
+Soroti,18.0,Female,Maternity,no,yes,Yes,Not Died
+Gulu,17.0,Female,Maternity,no,yes,No,Not Died
+Soroti,17.0,Male,Medical,yes,no,No,Not Died
+Arua,17.0,Female,Maternity,yes,yes,No,Not Died
+Soroti,17.0,Female,Maternity,yes,yes,No,Not Died
+Lira,16.0,Female,Maternity,no,no,No,Not Died
+Soroti,16.0,Female,Maternity,no,yes,No,Not Died
+Gulu,15.0,Male,Surgical,no,yes,No,Not Died
+Lira,14.0,Female,Surgical,no,no,No,Not Died
+Masaka,13.0,Male,Pediatric,no,yes,No,Not Died
+Lira,13.0,Female,Medical,no,no,No,Not Died
+Arua,13.0,Male,Medical,no,no,No,Not Died
+Masaka,12.0,Female,Surgical,no,yes,No,Not Died
+Mbale,12.0,Female,Surgical,no,yes,No,Not Died
+Arua,12.0,Male,Pediatric,yes,no,No,Not Died
+Lira,12.0,Male,Medical,yes,no,No,Not Died
+Gulu,12.0,Male,Pediatric,yes,no,No,Not Died
+Lira,12.0,Male,Medical,yes,no,No,Not Died
+Masaka,11.0,Male,Pediatric,no,no,No,Not Died
+Jinja,11.0,Female,Pediatric,no,yes,No,Not Died
+Gulu,11.0,Female,Surgical,no,no,Yes,Not Died
+Arua,11.0,Male,Pediatric,yes,no,No,Not Died
+Arua,10.0,Female,Pediatric,no,no,No,Not Died
+Lira,10.0,Female,ICU/HDU,no,no,No,Not Died
+Gulu,10.0,Male,Pediatric,no,no,No,Not Died
+Jinja,10.0,Female,Pediatric,no,no,No,Not Died
+Arua,10.0,Female,Pediatric,no,no,No,Not Died
+Lira,9.0,Male,Medical,no,no,No,Not Died
+Arua,9.0,Male,Pediatric,yes,no,No,Not Died
+Arua,8.0,Female,Pediatric,yes,no,No,Not Died
+Arua,7.0,Female,Surgical,no,yes,Yes,Not Died
+Soroti,7.0,Female,Pediatric,no,no,No,Not Died
+Masaka,7.0,Female,Pediatric,no,no,No,Not Died
+Arua,6.0,Male,Pediatric,no,no,No,Not Died
+Lira,5.0,Male,Pediatric,no,no,No,Not Died
+Lira,4.0,Female,Surgical,no,no,No,Not Died
+Jinja,4.0,Male,Pediatric,no,no,No,Not Died
+Lira,3.0,Female,Surgical,no,yes,No,Not Died
+Masaka,2.0,Female,Pediatric,no,no,Yes,Not Died
+Gulu,2.0,Female,Pediatric,no,yes,No,Not Died
+Masaka,2.0,Male,Pediatric,no,no,No,Not Died
+Lira,2.0,Female,Surgical,no,no,Yes,Not Died
+Soroti,2.0,Male,Pediatric,no,no,Yes,Not Died
+Arua,2.0,Male,Pediatric,no,no,No,Not Died
+Masaka,2.0,Male,Surgical,no,no,No,Not Died
+Jinja,2.0,Male,Pediatric,no,yes,No,Not Died
+Masaka,1.0,Female,Pediatric,no,no,No,Not Died
+Masaka,1.0,Male,Pediatric,no,no,Yes,Not Died
+Masaka,1.0,Male,Pediatric,no,no,Yes,Not Died
+Gulu,1.0,Female,Pediatric,no,yes,Yes,Not Died
+Arua,1.0,Male,Pediatric,no,no,No,Not Died
+Masaka,1.0,Female,Surgical,no,yes,No,Not Died
+Masaka,1.0,Female,Surgical,no,no,No,Not Died
+Mbale,1.0,Male,Surgical,no,no,No,Not Died
+Arua,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,0.0,Male,NICU,no,no,No,Not Died
+Mbarara,0.0,Male,ICU/HDU,no,yes,Yes,Not Died
+Arua,0.0,Female,Pediatric,no,yes,Yes,Not Died
+Lira,0.0,Male,Surgical,no,yes,No,Not Died
+Lira,0.0,Female,Pediatric,no,no,No,Not Died
+Mbarara,0.0,Female,NICU,no,no,No,Not Died
+Kabale,0.0,Female,Pediatric,no,yes,No,Not Died
+Jinja,0.0,Male,Pediatric,no,no,No,Not Died
+Soroti,0.0,Male,NICU,no,no,No,Not Died
+Mbale,83.0,Female,Medical,yes,no,No,Not Died
+Gulu,71.0,Female,Gynecology,yes,yes,No,Not Died
+Lira,70.0,Female,Surgical,no,no,Yes,Not Died
+Gulu,64.0,Male,Surgical,no,yes,No,Not Died
+Gulu,60.0,Female,Surgical,no,yes,No,Not Died
+Gulu,60.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,59.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,56.0,Female,Medical,yes,no,No,Not Died
+Masaka,52.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,43.0,Male,Surgical,no,no,No,Not Died
+Mbarara,39.0,Male,Surgical,no,yes,No,Not Died
+Kabale,37.0,Male,Medical,no,no,No,Not Died
+Soroti,37.0,Male,Medical,no,no,No,Not Died
+Gulu,36.0,Male,Surgical,no,yes,No,Not Died
+Kabale,34.0,Male,Surgical,no,no,No,Not Died
+Gulu,32.0,Female,ICU/HDU,yes,no,No,Not Died
+Jinja,29.0,Female,Gynecology,no,no,No,Not Died
+Gulu,26.0,Female,Gynecology,yes,yes,No,Not Died
+Lira,23.0,Male,Surgical,no,yes,No,Not Died
+Arua,20.0,Female,Gynecology,no,no,No,Not Died
+Masaka,13.0,Male,Medical,no,no,No,Not Died
+Kabale,8.0,Male,Pediatric,no,no,No,Not Died
+Gulu,7.0,Female,Pediatric,no,yes,No,Not Died
+Lira,7.0,Female,ICU/HDU,no,no,No,Not Died
+Kabale,6.0,Male,Pediatric,no,no,No,Not Died
+Mbarara,5.0,Male,Pediatric,no,no,Yes,Not Died
+Mbarara,4.0,Male,Pediatric,no,no,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Gulu,2.0,Female,Pediatric,no,no,No,Not Died
+Kabale,2.0,Female,Pediatric,no,yes,Yes,Not Died
+Mbarara,0.0,Male,ICU/HDU,no,no,Yes,Not Died
+Masaka,0.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,0.0,Female,ICU/HDU,no,yes,Yes,Not Died
+Mbarara,88.0,Male,Surgical,no,yes,No,Not Died
+Jinja,80.0,Male,Surgical,yes,yes,No,Not Died
+Gulu,63.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,53.0,Male,Surgical,yes,yes,No,Not Died
+Kabale,52.0,Male,Medical,no,no,No,Not Died
+Mbarara,51.0,Female,Surgical,no,yes,No,Not Died
+Masaka,46.0,Male,Medical,yes,no,No,Not Died
+Masaka,43.0,Male,Surgical,no,no,No,Not Died
+Mbale,42.0,Male,ICU/HDU,no,yes,No,Not Died
+Masaka,41.0,Male,Surgical,no,yes,No,Not Died
+Mbarara,40.0,Male,Surgical,no,no,Yes,Not Died
+Mbarara,40.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,39.0,Male,Surgical,no,yes,No,Not Died
+Masaka,38.0,Female,Surgical,no,yes,No,Not Died
+Mbarara,37.0,Female,Medical,no,yes,Yes,Not Died
+Mbarara,36.0,Male,Surgical,no,yes,No,Not Died
+Mbale,31.0,Female,Maternity,no,yes,No,Not Died
+Masaka,30.0,Male,Medical,no,no,No,Not Died
+Kabale,25.0,Male,Surgical,no,no,No,Not Died
+Mbale,19.0,Male,Surgical,no,no,No,Not Died
+Mbarara,18.0,Male,Surgical,yes,yes,No,Not Died
+Mbarara,15.0,Female,Medical,no,no,No,Not Died
+Jinja,1.0,Female,Pediatric,no,no,No,Not Died
+Gulu,1.0,Male,Pediatric,yes,no,No,Not Died
+Mbarara,0.0,Male,Pediatric,no,no,Yes,Not Died
+Mbarara,0.0,Male,NICU,no,no,No,Not Died
+Kabale,0.0,Male,Medical,no,no,No,Not Died

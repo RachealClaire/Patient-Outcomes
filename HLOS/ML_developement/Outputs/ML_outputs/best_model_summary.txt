@@ -2,14 +2,18 @@
 BEST MODEL SUMMARY
 ==================================================
   Model        : LGBM
-  MAE (days)   : 2.9029
-  RMSE (days)  : 6.2026
-  R²           : 0.8861
+  MAE (days)   : 6.2971
+  RMSE (days)  : 10.4981
+  R²           : 0.5670
   Features     : 10
 --------------------------------------------------
 All model MAEs (for reference):
-  Stacked    MAE=2.7696  RMSE=5.6822  R²=0.9045
-  LGBM       MAE=2.9029  RMSE=6.2026  R²=0.8861 ← best
-  RF         MAE=2.9322  RMSE=5.6785  R²=0.9046
-  XGB        MAE=4.0524  RMSE=7.6307  R²=0.8277
+  Stacked    MAE=6.1259  RMSE=10.0306  R²=0.6047
+  LGBM       MAE=6.2971  RMSE=10.4981  R²=0.5670 ← best
+  RF         MAE=6.7298  RMSE=10.5389  R²=0.5636
+  XGB        MAE=7.1441  RMSE=11.3629  R²=0.4927
+  CatBoost   MAE=8.9547  RMSE=13.2378  R²=0.3115
+  SVR        MAE=9.1592  RMSE=13.8333  R²=0.2482
+  GB         MAE=10.3343  RMSE=14.2252  R²=0.2050
+  ElasticNet MAE=11.9736  RMSE=16.2291  R²=-0.0348
 ==================================================

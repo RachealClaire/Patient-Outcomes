@@ -69,7 +69,7 @@ np.random.seed(RANDOM_SEED)
 # =============================================================================
 
 df = ml_data.copy()
-TARGET = "length_hosp_stay"
+TARGET = "Length of hospital stay (days)"
 
 df = df[df[TARGET] > 0].reset_index(drop=True)
 
@@ -367,7 +367,7 @@ lims = [min(y_test_orig.min(), pred_best.min()), max(y_test_orig.max(), pred_bes
 ax.plot(lims, lims, "k--", linewidth=1, label="Perfect prediction")
 ax.set_xlabel("Actual LOS (days)")
 ax.set_ylabel("Predicted LOS (days)")
-ax.set_title(f"Predicted vs Actual — {best_name}")
+ax.set_title(f"Predicted length of stay vs Actual — {best_name}")
 ax.legend(fontsize=8)
 
 ax = fig.add_subplot(gs[1, 2])

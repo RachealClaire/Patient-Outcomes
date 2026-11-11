@@ -28,7 +28,7 @@ import shap
 # OUTPUT DIRECTORY
 # =============================================================================
 
-OUTPUT_DIR = "/home/kyomukama/ACE/camonet/ML_Rerun/Outputs/ML_outputs"
+OUTPUT_DIR = "/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Outputs/ML_outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def out(filename):
@@ -43,6 +43,7 @@ plt.rcParams.update({
     "figure.dpi":        150,
     "figure.facecolor":  "white",
     "axes.facecolor":    "white",
+    "axes.grid":         False,
     "axes.spines.top":   False,
     "axes.spines.right": False,
     "axes.titlesize":    11,
@@ -80,7 +81,7 @@ np.random.seed(RANDOM_SEED)
 # =============================================================================
 
 df = ml_data.copy()
-TARGET = "length_hosp_stay"
+TARGET = "Length of hospital stay (days)"
 
 df = df[df[TARGET] > 0].reset_index(drop=True)
 
@@ -584,9 +585,6 @@ for name, model in best_models.items():
     try:
         inner = model.named_steps["model"]
 
-        # Build a feature matrix transformed exactly as the model sees it
-        # (apply the scaler step if present, so SHAP explains in the model's
-        # own input space).
         if "scaler" in model.named_steps:
             X_sample_for_shap = pd.DataFrame(
                 model.named_steps["scaler"].transform(X_sample_df),
@@ -619,12 +617,39 @@ for name, model in best_models.items():
         plt.tight_layout()
         save_fig(f"shap_summary_{name}.png")
 
-        # --- SHAP Bar importance ---
-        fig, ax = plt.subplots(figsize=(8, max(4, len(feature_names) * 0.28)))
-        shap.summary_plot(
-            shap_values, X_sample_df,
-            plot_type="bar", max_display=20, show=False,
-        )
+        # --- SHAP Bar importance (with value labels) ---
+        # Use the same absolute-mean SHAP metric as SHAP's default importance plot,
+        # and keep the same descending ranking so the chart does not reorder when
+        # you add the value labels.
+        sv = shap_values
+        if isinstance(sv, list):
+            if len(sv) == 2:
+                sv = np.abs(sv[1])
+            else:
+                sv = np.mean([np.abs(s) for s in sv], axis=0)
+        sv = np.asarray(sv)
+        if sv.ndim == 3:
+            sv = np.abs(sv[:, :, 1])
+        else:
+            sv = np.abs(sv)
+
+        mean_abs = sv.mean(axis=0)
+        order    = np.argsort(mean_abs)[::-1]
+        feats    = np.array(feature_names)[order]
+        vals     = mean_abs[order]
+
+        fig, ax = plt.subplots(figsize=(8, max(4, len(feature_names) * 0.4)))
+        ax.barh(feats, vals, color="#1f77b4")
+        ax.invert_yaxis()
+
+        pad = vals.max() * 0.01
+        for i, v in enumerate(vals):
+            ax.text(v + pad, i, f"+{v:.3f}", va="center", ha="left",
+                    color="red", fontsize=9)
+
+        ax.set_xlabel("mean(|SHAP value|)")
+        ax.set_xlim(0, vals.max() * 1.18)
+        ax.spines[["top", "right"]].set_visible(False)
         plt.title(f"SHAP Feature Importance — {name}", fontsize=12, fontweight="bold", pad=12)
         plt.tight_layout()
         save_fig(f"shap_importance_{name}.png")

@@ -1,0 +1,495 @@
+---
+title: "CLaire"
+author: "Racheal Claire Kyomukama"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tableone)
+library(table1)
+library(dplyr)
+library(tidyr)
+#library(tblregression)
+```
+## HLOS data
+
+```{r}
+data <- read.csv("/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/ml_data_encoded_combined.csv")
+```
+
+
+```{r}
+View(data)
+```
+
+```{r}
+colnames(data)
+```
+
+
+```{r}
+data <- data %>% drop_na()
+```
+
+
+```{r}
+nrow(data)
+```
+
+
+```{r}
+# ============================================================
+# PUBLICATION-STYLE TABLE 1: LENGTH OF HOSPITAL STAY
+# ============================================================
+
+# Install packages if necessary
+# install.packages(c("dplyr", "tidyr", "purrr",
+#                    "flextable", "officer"))
+
+library(dplyr)
+library(tidyr)
+library(purrr)
+library(flextable)
+library(officer)
+
+# ------------------------------------------------------------
+# 1. Define variables
+# ------------------------------------------------------------
+
+categorical_vars <- c(
+  "sex",
+  "referral",
+  "cormobid_condition",
+  "antibiotics_prescribed",
+  "growth1",
+  "Resistance",
+  "name_of_rrh",
+  "ward"
+)
+
+continuous_vars <- c(
+  "age", "num_infection_sites"
+)
+
+variable_labels <- c(
+  sex = "Sex",
+  referral = "Referral",
+  cormobid_condition = "Comorbid condition",
+  antibiotics_prescribed = "Antibiotics prescribed",
+  growth1 = "Culture growth",
+  Resistance = "Antibiotic resistance",
+  name_of_rrh = "Regional referral hospital",
+  ward = "Hospital ward",
+  age = "Age",
+  num_infection_sites = "Number of infection sites"
+)
+
+# ------------------------------------------------------------
+# 2. Formatting functions
+# ------------------------------------------------------------
+
+fmt_p <- function(p) {
+  if (is.na(p)) return("")
+  if (p < 0.001) return("<0.001")
+  sprintf("%.3f", p)
+}
+
+fmt_mean <- function(x) {
+  sprintf("%.2f (%.2f)", mean(x), sd(x))
+}
+
+fmt_median <- function(x) {
+  q <- quantile(x, c(0.25, 0.50, 0.75))
+  sprintf("%.2f (%.2f–%.2f)", q[2], q[1], q[3])
+}
+
+# ------------------------------------------------------------
+# 3. Overall summary
+# ------------------------------------------------------------
+
+overall <- data %>%
+  filter(!is.na(length_hosp_stay))
+
+overall_row <- tibble(
+  Characteristic = "Overall",
+  N = as.character(nrow(overall)),
+  `Mean LOS (SD)` = fmt_mean(overall$length_hosp_stay),
+  `Median LOS (IQR)` = fmt_median(overall$length_hosp_stay),
+  `Mean difference (95% CI)` = "",
+  `Regression coefficient (95% CI)` = "",
+  `p-value` = ""
+)
+
+# ------------------------------------------------------------
+# 4. Categorical variables
+# ------------------------------------------------------------
+
+categorical_table <- purrr::map_dfr(categorical_vars, function(var) {
+
+  d <- data %>%
+    filter(
+      !is.na(.data[[var]]),
+      !is.na(length_hosp_stay)
+    ) %>%
+    mutate(Category = droplevels(as.factor(.data[[var]])))
+
+  groups <- levels(d$Category)
+
+  if (length(groups) < 2) return(tibble())
+
+  # Dynamic formula
+  test_formula <- reformulate(
+    "Category",
+    response = "length_hosp_stay"
+  )
+
+  # Statistical tests
+  if (length(groups) == 2) {
+
+    p <- wilcox.test(
+      test_formula,
+      data = d
+    )$p.value
+
+    # Welch mean difference and 95% CI
+    welch <- t.test(
+      test_formula,
+      data = d
+    )
+
+    md <- mean(
+      d$length_hosp_stay[d$Category == groups[2]]
+    ) -
+      mean(
+        d$length_hosp_stay[d$Category == groups[1]]
+      )
+
+    mean_diff <- sprintf(
+      "%.2f (%.2f to %.2f)",
+      md,
+      welch$conf.int[1],
+      welch$conf.int[2]
+    )
+
+  } else {
+
+    p <- kruskal.test(
+      test_formula,
+      data = d
+    )$p.value
+
+    mean_diff <- ""
+  }
+
+  # Variable heading
+  heading <- tibble(
+    Characteristic = unname(variable_labels[var]),
+    N = "",
+    `Mean LOS (SD)` = "",
+    `Median LOS (IQR)` = "",
+    `Mean difference (95% CI)` = mean_diff,
+    `Regression coefficient (95% CI)` = "",
+    `p-value` = fmt_p(p)
+  )
+
+  # Category summaries
+  category_rows <- d %>%
+    group_by(Category) %>%
+    summarise(
+      N = n(),
+      Mean = mean(length_hosp_stay),
+      SD = sd(length_hosp_stay),
+      Q1 = quantile(length_hosp_stay, 0.25),
+      Median = median(length_hosp_stay),
+      Q3 = quantile(length_hosp_stay, 0.75),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      Characteristic = paste0("   ", as.character(Category)),
+      N = as.character(N),
+      `Mean LOS (SD)` = sprintf("%.2f (%.2f)", Mean, SD),
+      `Median LOS (IQR)` = sprintf(
+        "%.2f (%.2f–%.2f)", Median, Q1, Q3
+      ),
+      `Mean difference (95% CI)` = "",
+      `Regression coefficient (95% CI)` = "",
+      `p-value` = ""
+    ) %>%
+    select(
+      Characteristic,
+      N,
+      `Mean LOS (SD)`,
+      `Median LOS (IQR)`,
+      `Mean difference (95% CI)`,
+      `Regression coefficient (95% CI)`,
+      `p-value`
+    )
+
+  bind_rows(heading, category_rows)
+
+})
+
+# ------------------------------------------------------------
+# 5. Continuous variables
+# ------------------------------------------------------------
+
+continuous_table <- map_dfr(continuous_vars, function(var) {
+
+  d <- data %>%
+    select(
+      x = all_of(var),
+      length_hosp_stay
+    ) %>%
+    drop_na()
+
+  # Linear regression
+  model <- lm(length_hosp_stay ~ x, data = d)
+
+  coef <- summary(model)$coefficients
+  ci <- confint(model)["x", ]
+
+  beta <- coef["x", "Estimate"]
+  p <- coef["x", "Pr(>|t|)"]
+
+  # Median and IQR of the continuous explanatory variable
+  median_x <- median(d$x, na.rm = TRUE)
+  q1 <- quantile(d$x, 0.25, na.rm = TRUE)
+  q3 <- quantile(d$x, 0.75, na.rm = TRUE)
+
+  tibble(
+    Characteristic = paste0(
+      unname(variable_labels[var]),
+      " (per unit increase)"
+    ),
+    N = as.character(nrow(d)),
+
+    `Median (IQR)` = sprintf(
+      "%.2f (%.2f–%.2f)",
+      median_x, q1, q3
+    ),
+
+    `Mean difference (95% CI)` = "",
+
+    `Regression coefficient (95% CI)` = sprintf(
+      "%.2f (%.2f to %.2f)",
+      beta, ci[1], ci[2]
+    ),
+
+    `p-value` = fmt_p(p)
+  )
+})
+
+# ------------------------------------------------------------
+# 6. Combine into ONE table
+# ------------------------------------------------------------
+
+final_publication_table <- bind_rows(
+  overall_row,
+  categorical_table,
+  continuous_table
+)
+
+# ------------------------------------------------------------
+# 7. Create publication-style Word table
+# ------------------------------------------------------------
+
+ft <- flextable(final_publication_table)
+
+ft <- theme_booktabs(ft)
+
+ft <- bold(ft, part = "header")
+ft <- fontsize(ft, size = 9, part = "all")
+
+ft <- align(ft, align = "center", part = "all")
+
+ft <- align(
+  ft,
+  j = "Characteristic",
+  align = "left",
+  part = "all"
+)
+
+# Bold variable headings
+heading_names <- unname(variable_labels[categorical_vars])
+
+heading_rows <- which(
+  final_publication_table$Characteristic %in% heading_names
+)
+
+ft <- bold(
+  ft,
+  i = heading_rows,
+  j = 1:7,
+  bold = TRUE
+)
+
+# Bold overall row
+ft <- bold(ft, i = 1, j = 1:7, bold = TRUE)
+
+ft <- valign(ft, valign = "center", part = "all")
+
+# Allow table to fit on landscape page
+ft <- autofit(ft)
+
+# ------------------------------------------------------------
+# 8. Export to Word
+# ------------------------------------------------------------
+
+doc <- read_docx()
+
+doc <- body_end_section_landscape(doc)
+
+doc <- body_add_par(
+  doc,
+  "Table 1. Length of Hospital Stay by Explanatory Characteristics",
+  style = "heading 1"
+)
+
+doc <- body_add_flextable(doc, ft)
+
+doc <- body_add_par(
+  doc,
+  paste(
+    "Values are presented as mean (SD) and median (IQR).",
+    "Mean differences are calculated as the second category",
+    "minus the first category, with 95% confidence intervals",
+    "from Welch's t-test.",
+    "Wilcoxon rank-sum tests are used for binary categorical",
+    "variables and Kruskal-Wallis tests for categorical",
+    "variables with more than two groups.",
+    "Continuous variables are analysed using linear regression."
+  ),
+  style = "Normal"
+)
+
+print(
+  doc,
+  target = "Publication_Table1_Length_of_Hospital_Stay.docx"
+)
+
+# Confirm export location
+getwd()
+
+```
+
+
+```{r}
+data %>%
+  summarise(
+    Age_LOS_Correlation = cor(age, length_hosp_stay,
+                              use = "complete.obs"),
+    Infection_Sites_LOS_Correlation = cor(
+      num_infection_sites,
+      length_hosp_stay,
+      use = "complete.obs"
+    )
+  )
+```
+
+
+```{r}
+data2 = read.csv('/home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data2.csv')
+```
+
+```{r}
+#data2 <- data2 %>% mutate(age = exp(age))
+```
+
+
+```{r}
+class(data2$age)
+str(data2$age)
+summary(data2$age)
+```
+
+
+```{r}
+colnames(data2)
+```
+
+
+```{r}
+library(dplyr)
+library(gtsummary)
+
+# Convert categorical variables to factors
+data2 <- data2 %>%
+  mutate(
+    sex = as.factor(sex),
+    anyComorbidity = as.factor(anyComorbidity),
+    treatOutcome = as.factor(treatOutcome),
+    anyResistance = as.factor(anyResistance),
+    site = as.factor(site),
+    ward = as.factor(ward),
+    antib_prior_admi = as.factor(antib_prior_admi)
+  )
+
+# Generate Table 1
+table1 <- data2 %>%
+  select(
+    age,
+    sex,
+    anyComorbidity,
+    antib_prior_admi,
+    anyResistance,
+    site,
+    ward,
+    treatOutcome
+  ) %>%
+  tbl_summary(
+    by = treatOutcome,
+    type = list(
+      age ~ "continuous",
+      sex ~ "categorical",
+      anyComorbidity ~ "categorical",
+      antib_prior_admi ~ "categorical",
+      anyResistance ~ "categorical",
+      site ~ "categorical",
+      ward ~ "categorical"
+    ),
+    statistic = list(
+      age ~ "{median} ({p25}, {p75})",
+      all_categorical() ~ "{n} ({p}%)"
+    ),
+    digits = list(
+      age ~ 2,
+      all_categorical() ~ c(0, 1)
+    ),
+    missing = "ifany",
+    missing_text = "Missing"
+  ) %>%
+  add_overall(last = FALSE) %>%
+  add_p() %>%
+  bold_labels()
+
+# Display table
+table1
+```
+
+
+```{r}
+# Install packages if not already installed
+#install.packages(c("flextable", "officer"))
+
+library(flextable)
+library(officer)
+
+# Convert gtsummary table to flextable
+table1_word <- as_flex_table(table1)
+
+# Export to Word
+save_as_docx(
+  table1_word,
+  path = "Table1_Patient_Characteristics.docx"
+)
+```
+
+```{r}
+getwd()
+```
+
