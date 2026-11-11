@@ -3,6 +3,7 @@
 *.pkl
 /home/kyomukama/ACE/Patient outcomes/HLOS/Documentation/*
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Data/*
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/ml_data.csv
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
 /home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
@@ -16,3 +17,6 @@
 /home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data2.csv
 /home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_FINAL_toUse.csv
 /home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_mortalityData.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/daring_merged.xlsx
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
