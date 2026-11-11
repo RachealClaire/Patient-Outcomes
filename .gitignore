@@ -1,21 +1,18 @@
-/home/kyomukama/ACE/Patient outcomes/HLOS/Camonet data/*
+# Ignore generated model artefacts
 *.joblib
 *.pkl
-/home/kyomukama/ACE/Patient outcomes/HLOS/Documentation/*
-/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
-/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/ml_data.csv
-/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
-/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/mice_results/*
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Camonet_data.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Data/*
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Daring_data.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/daring_merged.xlsx
-/home/kyomukama/ACE/Patient outcomes/Mortality_data/CAMONET_598_mortalityData.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data2.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_FINAL_toUse.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_mortalityData.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/daring_merged.xlsx
-/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
+
+# Ignore only known generated outputs, not whole folders
+HLOS/ML_developement/Outputs/ML_outputs/*.joblib
+HLOS/ML_developement/mice_results/*.csv
+HLOS/ML_developement/xgb_model1.pkl
+HLOS/ML_developement/Outputs/ML_outputs/*.txt
+HLOS/ML_developement/Outputs/ML_outputs/*.csv
+
+# Ignore specific large/raw data files only
+HLOS/ML_developement/ml_data.csv
+Mortality model/Camonet_data.csv
+Mortality model/Daring_data.csv
+Mortality model/Unmerged_data/camonet_data.csv
+Mortality model/Unmerged_data/daring_merged.xlsx
+Mortality model/Mortality_data/*.csv
