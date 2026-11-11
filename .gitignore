@@ -1,14 +1,21 @@
-# Ignore generated model artifacts
+/home/kyomukama/ACE/Patient outcomes/HLOS/Camonet data/*
 *.joblib
 *.pkl
-
-# Ignore training output folders
-HLOS/ML_developement/Outputs/ML_outputs/*
-HLOS/ML_developement/mice_results/*
-
-# Ignore large or sensitive local data folders
-HLOS/ML_developement/Data/*
-Mortality model/Mortality_data/*
-
-# Ignore local notebook output artifacts if needed
-HLOS/ML_developement/Outputs/EDA_Visualizations/*
+/home/kyomukama/ACE/Patient outcomes/HLOS/Documentation/*
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/ml_data.csv
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/Data/*
+/home/kyomukama/ACE/Patient outcomes/HLOS/ML_developement/mice_results/*
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Camonet_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Data/*
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Daring_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/daring_merged.xlsx
+/home/kyomukama/ACE/Patient outcomes/Mortality_data/CAMONET_598_mortalityData.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality_data/combined_mortality_data2.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_FINAL_toUse.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality_data/DARING_mortalityData.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/daring_merged.xlsx
+/home/kyomukama/ACE/Patient outcomes/Mortality model/Unmerged_data/camonet_data.csv
