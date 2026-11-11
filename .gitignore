@@ -10,8 +10,8 @@ HLOS/ML_developement/Outputs/ML_outputs/*.txt
 HLOS/ML_developement/Outputs/ML_outputs/*.csv
 
 # Ignore specific large/raw data files only
-HLOS/Camonet_data/*
-HLOS/DOcumentaion/*
+HLOS/Camonetdata/*
+HLOS/Documentaion/*.docx
 HLOS/ML_developement/Data/*
 HLOS/ML_developement/ml_data.csv
 Mortality model/Camonet_data.csv
